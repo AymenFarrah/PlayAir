@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A63E866555D6F7DDAD3D693 /* Pods_PlayAir.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26AA2377F455B57A4DEAE83F /* Pods_PlayAir.framework */; };
 		E11C61BF1C70E6C1003B0812 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11C61BE1C70E6C1003B0812 /* AppDelegate.swift */; };
 		E11C61C11C70E6C1003B0812 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11C61C01C70E6C1003B0812 /* FirstViewController.swift */; };
 		E11C61C31C70E6C1003B0812 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11C61C21C70E6C1003B0812 /* SecondViewController.swift */; };
@@ -35,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		08107251195C7B6FCE633BCE /* Pods-PlayAir.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayAir.release.xcconfig"; path = "Pods/Target Support Files/Pods-PlayAir/Pods-PlayAir.release.xcconfig"; sourceTree = "<group>"; };
+		26AA2377F455B57A4DEAE83F /* Pods_PlayAir.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlayAir.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A73CB8DBA41DC93DF384F62D /* Pods-PlayAir.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayAir.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PlayAir/Pods-PlayAir.debug.xcconfig"; sourceTree = "<group>"; };
 		E11C61BB1C70E6C1003B0812 /* PlayAir.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayAir.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E11C61BE1C70E6C1003B0812 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E11C61C01C70E6C1003B0812 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A63E866555D6F7DDAD3D693 /* Pods_PlayAir.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +81,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		37CBAC76CCE7F610F17E7C64 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A73CB8DBA41DC93DF384F62D /* Pods-PlayAir.debug.xcconfig */,
+				08107251195C7B6FCE633BCE /* Pods-PlayAir.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AE660FAF399DCC7F11E6BE0B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26AA2377F455B57A4DEAE83F /* Pods_PlayAir.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E11C61B21C70E6C1003B0812 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +105,8 @@
 				E11C61D41C70E6C1003B0812 /* PlayAirTests */,
 				E11C61DF1C70E6C1003B0812 /* PlayAirUITests */,
 				E11C61BC1C70E6C1003B0812 /* Products */,
+				37CBAC76CCE7F610F17E7C64 /* Pods */,
+				AE660FAF399DCC7F11E6BE0B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,9 +159,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E11C61E51C70E6C1003B0812 /* Build configuration list for PBXNativeTarget "PlayAir" */;
 			buildPhases = (
+				9DA8797679F179984C37732E /* Check Pods Manifest.lock */,
 				E11C61B71C70E6C1003B0812 /* Sources */,
 				E11C61B81C70E6C1003B0812 /* Frameworks */,
 				E11C61B91C70E6C1003B0812 /* Resources */,
+				C52FF735227DE5B97B1C61C6 /* Embed Pods Frameworks */,
+				CECF976716A692218A3C759D /* Copy Pods Resources */,
+				E12567481C70F25B009DA008 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -253,6 +281,67 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9DA8797679F179984C37732E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C52FF735227DE5B97B1C61C6 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PlayAir/Pods-PlayAir-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CECF976716A692218A3C759D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PlayAir/Pods-PlayAir-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E12567481C70F25B009DA008 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" aa4be8a26883af9266dcb5a4d17a8a673a26770b e4959e365321c6112da347298f7be13d31c8a6e351d9f4f19f7dcb50f5b46168";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E11C61B71C70E6C1003B0812 /* Sources */ = {
@@ -401,6 +490,7 @@
 		};
 		E11C61E61C70E6C1003B0812 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A73CB8DBA41DC93DF384F62D /* Pods-PlayAir.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PlayAir/Info.plist;
@@ -412,6 +502,7 @@
 		};
 		E11C61E71C70E6C1003B0812 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08107251195C7B6FCE633BCE /* Pods-PlayAir.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PlayAir/Info.plist;
@@ -488,6 +579,7 @@
 				E11C61E71C70E6C1003B0812 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E11C61E81C70E6C1003B0812 /* Build configuration list for PBXNativeTarget "PlayAirTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +588,7 @@
 				E11C61EA1C70E6C1003B0812 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E11C61EB1C70E6C1003B0812 /* Build configuration list for PBXNativeTarget "PlayAirUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +597,7 @@
 				E11C61ED1C70E6C1003B0812 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

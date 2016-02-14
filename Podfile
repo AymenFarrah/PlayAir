@@ -1,8 +1,9 @@
 platform :ios, '9.0'
 use_frameworks!
 
-target 'iRadio' do
-  pod 'AFNetworking'
-  pod 'CSStickyHeaderFlowLayout'
+target 'PlayAir' do
+  pod 'Alamofire'
   pod 'StreamingKit'
+  pod 'Fabric'
+  pod 'Crashlytics'
 end
