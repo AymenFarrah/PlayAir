@@ -7,15 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9A63E866555D6F7DDAD3D693 /* Pods_PlayAir.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26AA2377F455B57A4DEAE83F /* Pods_PlayAir.framework */; };
+		4E31669D9AC70AF7132885CA /* libPods-PlayAir.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 68AC866033C9BDECE9D02FF9 /* libPods-PlayAir.a */; };
 		E11C61BF1C70E6C1003B0812 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11C61BE1C70E6C1003B0812 /* AppDelegate.swift */; };
-		E11C61C11C70E6C1003B0812 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11C61C01C70E6C1003B0812 /* FirstViewController.swift */; };
-		E11C61C31C70E6C1003B0812 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11C61C21C70E6C1003B0812 /* SecondViewController.swift */; };
 		E11C61C61C70E6C1003B0812 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E11C61C41C70E6C1003B0812 /* Main.storyboard */; };
 		E11C61C81C70E6C1003B0812 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E11C61C71C70E6C1003B0812 /* Assets.xcassets */; };
 		E11C61CB1C70E6C1003B0812 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E11C61C91C70E6C1003B0812 /* LaunchScreen.storyboard */; };
 		E11C61D61C70E6C1003B0812 /* PlayAirTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11C61D51C70E6C1003B0812 /* PlayAirTests.swift */; };
 		E11C61E11C70E6C1003B0812 /* PlayAirUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11C61E01C70E6C1003B0812 /* PlayAirUITests.swift */; };
+		E12567501C710377009DA008 /* PALiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E125674F1C710377009DA008 /* PALiveViewController.swift */; };
+		E12567521C710570009DA008 /* PASettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12567511C710570009DA008 /* PASettingsViewController.swift */; };
+		E12567551C710827009DA008 /* PARadio.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12567541C710827009DA008 /* PARadio.swift */; };
+		E19380E81C710A9500A2D2ED /* PAPlayerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19380E71C710A9500A2D2ED /* PAPlayerManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,12 +39,10 @@
 
 /* Begin PBXFileReference section */
 		08107251195C7B6FCE633BCE /* Pods-PlayAir.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayAir.release.xcconfig"; path = "Pods/Target Support Files/Pods-PlayAir/Pods-PlayAir.release.xcconfig"; sourceTree = "<group>"; };
-		26AA2377F455B57A4DEAE83F /* Pods_PlayAir.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlayAir.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68AC866033C9BDECE9D02FF9 /* libPods-PlayAir.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PlayAir.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A73CB8DBA41DC93DF384F62D /* Pods-PlayAir.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayAir.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PlayAir/Pods-PlayAir.debug.xcconfig"; sourceTree = "<group>"; };
 		E11C61BB1C70E6C1003B0812 /* PlayAir.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayAir.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E11C61BE1C70E6C1003B0812 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E11C61C01C70E6C1003B0812 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		E11C61C21C70E6C1003B0812 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		E11C61C51C70E6C1003B0812 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E11C61C71C70E6C1003B0812 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E11C61CA1C70E6C1003B0812 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -53,6 +53,13 @@
 		E11C61DC1C70E6C1003B0812 /* PlayAirUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayAirUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E11C61E01C70E6C1003B0812 /* PlayAirUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayAirUITests.swift; sourceTree = "<group>"; };
 		E11C61E21C70E6C1003B0812 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E125674A1C710022009DA008 /* PlayAir-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PlayAir-Bridging-Header.h"; sourceTree = "<group>"; };
+		E125674B1C710070009DA008 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		E125674D1C710075009DA008 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		E125674F1C710377009DA008 /* PALiveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PALiveViewController.swift; sourceTree = "<group>"; };
+		E12567511C710570009DA008 /* PASettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PASettingsViewController.swift; sourceTree = "<group>"; };
+		E12567541C710827009DA008 /* PARadio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PARadio.swift; sourceTree = "<group>"; };
+		E19380E71C710A9500A2D2ED /* PAPlayerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PAPlayerManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A63E866555D6F7DDAD3D693 /* Pods_PlayAir.framework in Frameworks */,
+				4E31669D9AC70AF7132885CA /* libPods-PlayAir.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,7 +100,9 @@
 		AE660FAF399DCC7F11E6BE0B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				26AA2377F455B57A4DEAE83F /* Pods_PlayAir.framework */,
+				E125674D1C710075009DA008 /* AudioToolbox.framework */,
+				E125674B1C710070009DA008 /* AVFoundation.framework */,
+				68AC866033C9BDECE9D02FF9 /* libPods-PlayAir.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -123,13 +132,16 @@
 		E11C61BD1C70E6C1003B0812 /* PlayAir */ = {
 			isa = PBXGroup;
 			children = (
+				E19380E61C710A8100A2D2ED /* Manager */,
+				E12567531C710819009DA008 /* Model */,
 				E11C61BE1C70E6C1003B0812 /* AppDelegate.swift */,
-				E11C61C01C70E6C1003B0812 /* FirstViewController.swift */,
-				E11C61C21C70E6C1003B0812 /* SecondViewController.swift */,
+				E125674F1C710377009DA008 /* PALiveViewController.swift */,
+				E12567511C710570009DA008 /* PASettingsViewController.swift */,
 				E11C61C41C70E6C1003B0812 /* Main.storyboard */,
 				E11C61C71C70E6C1003B0812 /* Assets.xcassets */,
 				E11C61C91C70E6C1003B0812 /* LaunchScreen.storyboard */,
 				E11C61CC1C70E6C1003B0812 /* Info.plist */,
+				E125674A1C710022009DA008 /* PlayAir-Bridging-Header.h */,
 			);
 			path = PlayAir;
 			sourceTree = "<group>";
@@ -150,6 +162,22 @@
 				E11C61E21C70E6C1003B0812 /* Info.plist */,
 			);
 			path = PlayAirUITests;
+			sourceTree = "<group>";
+		};
+		E12567531C710819009DA008 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E12567541C710827009DA008 /* PARadio.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		E19380E61C710A8100A2D2ED /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				E19380E71C710A9500A2D2ED /* PAPlayerManager.swift */,
+			);
+			name = Manager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -348,9 +376,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E11C61C31C70E6C1003B0812 /* SecondViewController.swift in Sources */,
+				E19380E81C710A9500A2D2ED /* PAPlayerManager.swift in Sources */,
+				E12567551C710827009DA008 /* PARadio.swift in Sources */,
+				E12567521C710570009DA008 /* PASettingsViewController.swift in Sources */,
+				E12567501C710377009DA008 /* PALiveViewController.swift in Sources */,
 				E11C61BF1C70E6C1003B0812 /* AppDelegate.swift in Sources */,
-				E11C61C11C70E6C1003B0812 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -497,6 +527,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.farrah.PlayAir;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PlayAir/PlayAir-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -509,6 +540,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.farrah.PlayAir;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PlayAir/PlayAir-Bridging-Header.h";
 			};
 			name = Release;
 		};

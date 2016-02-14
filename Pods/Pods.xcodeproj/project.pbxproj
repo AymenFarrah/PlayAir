@@ -7,182 +7,123 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0522CED0E7F6F082C56ACD17D12B7713 /* STKHTTPDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 027FD7E0D4E5FB6A1F8E1E25FB1C2491 /* STKHTTPDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		08F8DC279669511D742E2626FE32BF01 /* STKCoreFoundationDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D4329C0E99686B366E63ABA78B988E /* STKCoreFoundationDataSource.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		095406039B4D371E48D08B38A2975AC8 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E6969ABD66C08A19AC9E3D84241F78E /* Error.swift */; };
-		0D6D7A7CC189B9875B84C3DF37201E3E /* STKAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1711C4BEBD58223032C68DE8E82DA01A /* STKAudioPlayer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		16102E4E35FAA0FC4161282FECE56469 /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3A0C867237A67AE0E5C9B802603336 /* Timeline.swift */; };
-		199FBB85C282F548D3D30692C64C8215 /* STKDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB71600A73BC7C60821584B5061231C /* STKDataSource.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		2D3405986FC586FA6C0A5E0B6BA7E64E /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB4262B6B61EE824A151185FBD65973 /* Validation.swift */; };
-		33837293EF60693AA8D210B868FFBDBF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC48E228A95084B93A297299D7CA6B30 /* Foundation.framework */; };
-		34CCDCA848A701466256BC2927DA8856 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8322390F58D70AF1532A02A26385CED1 /* NetworkReachabilityManager.swift */; };
-		39A0D637CDC0324C54400E0AEDFF6424 /* STKQueueEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = E826922FD5F8A3462F65457246E973BE /* STKQueueEntry.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		3EA8F215C9C1432D74E5CCA4834AA8C0 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C424FA76D6B854B724854E9DF24764 /* ResponseSerialization.swift */; };
-		4081EA628AF0B73AC51FFB9D7AB3B89E /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646B4EEB3F887E271A8D2F4DC072D422 /* Manager.swift */; };
-		46FEF2508B5397303F150782576ACF1F /* NSMutableArray+STKAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E04DEBCB417CB6FF573782C987B3DE5 /* NSMutableArray+STKAudioPlayer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		517415042AFB153BFCA0CF6D684326FD /* STKAudioPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 9245DAE32CE0238815C686E3446249D4 /* STKAudioPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5BC19E6E0F199276003F0AF96838BCE5 /* Upload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2632B35F1C5E4E7248C43B04548EC614 /* Upload.swift */; };
-		5CB05FBCB32D21E194B5ECF680CB6AE0 /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6E95E6A077D9AEE76D6CC340F2B02A /* Download.swift */; };
-		62797EC77F762DE2A8B26995EFCA17D5 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9650D88D564222CA32DB44EB6B99A00A /* CoreFoundation.framework */; };
-		62E8346F03C03E7F4D631361F325689E /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0E769CE0952ACAF0B6DD23DEC8F6F1 /* Response.swift */; };
-		632001E47341E955F1C94F0CEFCF4546 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85FE4F3CBF11E091C31C32DA5F0CF0B0 /* AudioToolbox.framework */; };
-		736242375F18CAF4911CBA11F1986A9A /* STKQueueEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = 510AADB4ED332EF6E80CC7B1D1F3F446 /* STKQueueEntry.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		75BC26BD8558E42EC4A914012C8FE424 /* STKDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = A2C95353E33782848F6489723E8C7C6C /* STKDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7892573528EA8ADEEBAA07926D0D3D7F /* StreamingKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EC8CA9BC5AB1BFC0520585AAC1419AED /* StreamingKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7B48852C4D848FA2DA416A98F6425869 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B719A15872B4F93DC48306CD011336 /* ServerTrustPolicy.swift */; };
-		7BA049A8A530320D26A5FED8582518B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC48E228A95084B93A297299D7CA6B30 /* Foundation.framework */; };
-		80A9DA6D5740CB3CD58CDD6B9481B839 /* STKCoreFoundationDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 8891C58B39E5D5EC65B5E905BE91B9FB /* STKCoreFoundationDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8A7C98DFEAE162AB36D927B6C1469811 /* StreamingKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F7A0E5E75B3C779C2EADB04B1829B9 /* StreamingKit-dummy.m */; };
-		8EB11202167FCDDF1257AAAB1D1FB244 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B21F9D12849474E1CA1C240A702F39 /* Alamofire.swift */; };
-		9469DF81ECB494E84675969B5E13374C /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9044B3177C0914581D8F3BF1C68953D4 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9B3B69A43EDF4B2CB37C0F4E24000FB8 /* Pods-PlayAir-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FA3D2DF3F2FE5D1BFC96BA6329260762 /* Pods-PlayAir-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9D0879F7A7225F947A08D0ACE4260B2E /* Pods-PlayAir-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6BFBE497DA55797E26706556D8B0BC /* Pods-PlayAir-dummy.m */; };
-		9F7F73C95B0F725E0ABBFCE8DD92ECFA /* NSMutableArray+STKAudioPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B1E92997D74402FF94CBF4A719F0885 /* NSMutableArray+STKAudioPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A3077475FB0F958DF196056B2044C48E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCC319E2DDB0C5D1139889B35C2C6164 /* SystemConfiguration.framework */; };
-		A8C4A37950C9D86A211883931358ED70 /* STKAutoRecoveringHTTPDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = FFEE258BC7586BCE056048AB7CA43438 /* STKAutoRecoveringHTTPDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AA314156AC500125F4078EE968DB14C6 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FBB22FE798B882B2E8B8F8FB6720D0 /* Result.swift */; };
-		ADF19C953CE2A7D0B72EC93A81FCCC26 /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B734CD6B97D24736FD222E19214ED2 /* Alamofire-dummy.m */; };
-		AE4CF87C02C042DF13ED5B21C4FDC1E0 /* Stream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01CAAB21773155D7A71697DE3F57F117 /* Stream.swift */; };
-		AF03C7C3C45189682B2DB2CF983CE440 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD13E4B6F98F3E8CB1F68F05F15E7ED4 /* CFNetwork.framework */; };
-		B3B342FABD8A8DAE80FF17C70FB24E19 /* STKDataSourceWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = E482A60784AA1760AB720CB8505433A6 /* STKDataSourceWrapper.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		BD434E69AC383997CECF38EE6ED98D0F /* STKLocalFileDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = D38EE438D55557E9D1BEA04879402464 /* STKLocalFileDataSource.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		BE41196F6A3903E59C3306FE3F8B43FE /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D24C7075A76C89D60E0E78D62596CF /* Notifications.swift */; };
-		C0DB70AB368765DC64BFB5FEA75E0696 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9545E6226E513A82C198E31B080175F2 /* ParameterEncoding.swift */; };
-		C7B6DD7C0456C50289A2C381DFE9FA3F /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174C048A9452CFCC0973C22D1E451503 /* MultipartFormData.swift */; };
-		C8061806D522C15DDD6C838A1938B9AE /* STKAutoRecoveringHTTPDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 35BFEEDB4933BBEF77B082717FF0046B /* STKAutoRecoveringHTTPDataSource.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		D096A0714F401BEFE9418A94B9DE81BA /* STKDataSourceWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = FCE9332020D6646B9A5D95E0F30C9A96 /* STKDataSourceWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D2C081B5498EA9AB275429BE17797590 /* STKLocalFileDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 95836CF1DD29BABBD4E944356394B94E /* STKLocalFileDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E7C32292C996624AB4EF161028820996 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC48E228A95084B93A297299D7CA6B30 /* Foundation.framework */; };
-		EFE92E8D3813DD26E78E93EEAF6D7E7E /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156B6E8C6BF8A0DB09FD73BC83843742 /* Request.swift */; };
-		FAB0B1D9699EB40310783D640BE2937A /* STKHTTPDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B52B4E089D8E61BF2640665946FFAB4 /* STKHTTPDataSource.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		02865F5D53A5F72DEDAA258D7FA24303 /* NSMutableArray+STKAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 99ADEE9EA7D6D44FC00B99FB8B0064EF /* NSMutableArray+STKAudioPlayer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		02B503C615A8A22CF2E77755A7A8697B /* STKCoreFoundationDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 45A52856E88A97256923F70FE3BFC04A /* STKCoreFoundationDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21AB3B096E20DB22AA2DCD91621BE93F /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD13E4B6F98F3E8CB1F68F05F15E7ED4 /* CFNetwork.framework */; };
+		26DD611FAB2F49117EC08C0F9F884474 /* STKHTTPDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = C6649B1DDB186EB9C89FAA60075ECEC8 /* STKHTTPDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B9469F743D4A6F612FC7C0F07AF3BC9 /* STKQueueEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8BD62B58984530A32930AC1AA7E6CB /* STKQueueEntry.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		3B486FE60771B5C5F708673F82799E67 /* STKHTTPDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 76167078521D0F6F40CA35B2392398B5 /* STKHTTPDataSource.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4D956D9A7F51A359FB54D71BE7C53A32 /* STKAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A7C46D104E728530D5132EFFDEBCED /* STKAudioPlayer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		58050485B6490C001CF38B79573DBBB5 /* STKLocalFileDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 250BEE18533D08450D62B63FFD946D71 /* STKLocalFileDataSource.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		59AEB86778A04063720680785A67A1AC /* STKLocalFileDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B83D75E9D7760974173514383E3FA4A /* STKLocalFileDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6515CFBA823DAC52F327DE479CAFEFBF /* STKAutoRecoveringHTTPDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 00BF7BE43D3BC9D676778B14D7BD07C3 /* STKAutoRecoveringHTTPDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B510BB8E32BD59017D11D5512A70CDB /* STKCoreFoundationDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF52867B1A69F86570BE2B76465427D /* STKCoreFoundationDataSource.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		6C9AFC046F6A75FA8CA75ECC21E03113 /* STKQueueEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = 65F75B7F4AE02A745364326F4E408100 /* STKQueueEntry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6CBFD96DA141AE602E8A55D6D0C9A550 /* Pods-PlayAir-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 03FF5A0436D63A05AA6EC95305E2BFF5 /* Pods-PlayAir-dummy.m */; };
+		73D6E5064F88A704C1A9301C25588FED /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9650D88D564222CA32DB44EB6B99A00A /* CoreFoundation.framework */; };
+		846E3FA2C900104324E6E6C587A87407 /* NSMutableArray+STKAudioPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 085C8BDF6B3D88C0436C0D062C1A78B6 /* NSMutableArray+STKAudioPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96B337996F291FBD4799C7749B8A9CDB /* STKDataSourceWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 89FBC9DD8788A8CCE4B2084F59D03432 /* STKDataSourceWrapper.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		99DED0D8873EF3EA4238565BD3D20208 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC48E228A95084B93A297299D7CA6B30 /* Foundation.framework */; };
+		B4D90953FEB4F46837A78519675ED151 /* STKAudioPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A05D69B0D204C3C9B2CA124EFD14677 /* STKAudioPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B874B963236D7923CF459A7265D5ADE4 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCC319E2DDB0C5D1139889B35C2C6164 /* SystemConfiguration.framework */; };
+		BDCE8A67FA1FFA10F57E8578283E332B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC48E228A95084B93A297299D7CA6B30 /* Foundation.framework */; };
+		DF3F2AB245F8B6DFF2B88548967265DB /* STKDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 0941A73C21F274B36790D94A252930F7 /* STKDataSource.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E20D2E0F9DAB4A94B7AE5456127E2426 /* StreamingKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB4CED1C51C4DD49A082B5FBA17167B /* StreamingKit-dummy.m */; };
+		E793C05624B6E01F6A8B553B08EAE93F /* STKDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 66B5386B54D80F17B51B33128E6388E1 /* STKDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5C7C874F001EB8E903C8148E2A4AE0F /* STKDataSourceWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 19626EAB35E18B0958A69361C8546EE3 /* STKDataSourceWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F812289C1F9E7A85D876B4CBA6D5A157 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85FE4F3CBF11E091C31C32DA5F0CF0B0 /* AudioToolbox.framework */; };
+		F924A42DCC55A6BEFDE0554495AD2359 /* STKAutoRecoveringHTTPDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7A7B1E08CF3F8EF8B6C720E6806B66 /* STKAutoRecoveringHTTPDataSource.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0C63FB9EA34DA867887B3A3056454178 /* PBXContainerItemProxy */ = {
+		9E1A035F5CEBC67EFC8C39BF70488348 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2611132BA31DEDFCFD8F582D2EE2B498;
+			remoteGlobalIDString = 15486DD5EC244A4B829ABA0AEC149EBD;
 			remoteInfo = StreamingKit;
-		};
-		F329FADE78DB9B9F73FF1103164F4D74 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 79C040AFDDCE1BCBF6D8B5EB0B85887F;
-			remoteInfo = Alamofire;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01CAAB21773155D7A71697DE3F57F117 /* Stream.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stream.swift; path = Source/Stream.swift; sourceTree = "<group>"; };
-		027FD7E0D4E5FB6A1F8E1E25FB1C2491 /* STKHTTPDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STKHTTPDataSource.h; path = StreamingKit/StreamingKit/STKHTTPDataSource.h; sourceTree = "<group>"; };
-		02BE9C2165FC8DA3D3FD0C71429A6A2A /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Crashlytics.framework; path = iOS/Crashlytics.framework; sourceTree = "<group>"; };
-		04B6D917A7B15B12F65921CDD2D202F6 /* Pods-PlayAir.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PlayAir.modulemap"; sourceTree = "<group>"; };
-		10B734CD6B97D24736FD222E19214ED2 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
-		156B6E8C6BF8A0DB09FD73BC83843742 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
-		16997509C84462879AADB39B51306C67 /* StreamingKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = StreamingKit.modulemap; sourceTree = "<group>"; };
-		1711C4BEBD58223032C68DE8E82DA01A /* STKAudioPlayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STKAudioPlayer.m; path = StreamingKit/StreamingKit/STKAudioPlayer.m; sourceTree = "<group>"; };
-		174C048A9452CFCC0973C22D1E451503 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
-		1DE4BCF955C8058E3C629F5583C85B29 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2632B35F1C5E4E7248C43B04548EC614 /* Upload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Upload.swift; path = Source/Upload.swift; sourceTree = "<group>"; };
-		27C424FA76D6B854B724854E9DF24764 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
-		29C03AFF8C48C7706B553CED52417AD8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2A5D952F431E4893C4EF1B702E30AEF4 /* Pods-PlayAir-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PlayAir-frameworks.sh"; sourceTree = "<group>"; };
-		2B1E92997D74402FF94CBF4A719F0885 /* NSMutableArray+STKAudioPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+STKAudioPlayer.h"; path = "StreamingKit/StreamingKit/NSMutableArray+STKAudioPlayer.h"; sourceTree = "<group>"; };
-		2B52B4E089D8E61BF2640665946FFAB4 /* STKHTTPDataSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STKHTTPDataSource.m; path = StreamingKit/StreamingKit/STKHTTPDataSource.m; sourceTree = "<group>"; };
-		2E412FF608022FF779D8980E3C969107 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Alamofire.modulemap; sourceTree = "<group>"; };
-		32F77ABA91DC5BC02F090234CC3AB9BD /* Pods-PlayAir-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PlayAir-resources.sh"; sourceTree = "<group>"; };
-		3411E74321FAAAD7C9E8345978D6504C /* StreamingKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = StreamingKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		35BFEEDB4933BBEF77B082717FF0046B /* STKAutoRecoveringHTTPDataSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STKAutoRecoveringHTTPDataSource.m; path = StreamingKit/StreamingKit/STKAutoRecoveringHTTPDataSource.m; sourceTree = "<group>"; };
-		3E3A0C867237A67AE0E5C9B802603336 /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
-		45E088EB11C89F98F92380375794B0B4 /* Pods-PlayAir.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PlayAir.debug.xcconfig"; sourceTree = "<group>"; };
-		4E04DEBCB417CB6FF573782C987B3DE5 /* NSMutableArray+STKAudioPlayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+STKAudioPlayer.m"; path = "StreamingKit/StreamingKit/NSMutableArray+STKAudioPlayer.m"; sourceTree = "<group>"; };
-		50B21F9D12849474E1CA1C240A702F39 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
-		510AADB4ED332EF6E80CC7B1D1F3F446 /* STKQueueEntry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STKQueueEntry.h; path = StreamingKit/StreamingKit/STKQueueEntry.h; sourceTree = "<group>"; };
-		646B4EEB3F887E271A8D2F4DC072D422 /* Manager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Manager.swift; path = Source/Manager.swift; sourceTree = "<group>"; };
-		65D4EACBBB1BF97EAA9E5FFD82FC31F9 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
-		6E6969ABD66C08A19AC9E3D84241F78E /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Source/Error.swift; sourceTree = "<group>"; };
-		75D24C7075A76C89D60E0E78D62596CF /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
-		7A3DFADE42B11C290FFBCFF0353E6C3C /* Pods-PlayAir-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PlayAir-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7AB4262B6B61EE824A151185FBD65973 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
-		7AF28EA2882BE7DBB85329BBA5A0D18E /* StreamingKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = StreamingKit.xcconfig; sourceTree = "<group>"; };
-		7D6E95E6A077D9AEE76D6CC340F2B02A /* Download.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Download.swift; path = Source/Download.swift; sourceTree = "<group>"; };
-		8322390F58D70AF1532A02A26385CED1 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		00BF7BE43D3BC9D676778B14D7BD07C3 /* STKAutoRecoveringHTTPDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STKAutoRecoveringHTTPDataSource.h; path = StreamingKit/StreamingKit/STKAutoRecoveringHTTPDataSource.h; sourceTree = "<group>"; };
+		03FF5A0436D63A05AA6EC95305E2BFF5 /* Pods-PlayAir-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PlayAir-dummy.m"; sourceTree = "<group>"; };
+		085C8BDF6B3D88C0436C0D062C1A78B6 /* NSMutableArray+STKAudioPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+STKAudioPlayer.h"; path = "StreamingKit/StreamingKit/NSMutableArray+STKAudioPlayer.h"; sourceTree = "<group>"; };
+		0941A73C21F274B36790D94A252930F7 /* STKDataSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STKDataSource.m; path = StreamingKit/StreamingKit/STKDataSource.m; sourceTree = "<group>"; };
+		162F4CD93AB9E57AE195EBE1677B4B70 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Crashlytics.framework; path = iOS/Crashlytics.framework; sourceTree = "<group>"; };
+		19626EAB35E18B0958A69361C8546EE3 /* STKDataSourceWrapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STKDataSourceWrapper.h; path = StreamingKit/StreamingKit/STKDataSourceWrapper.h; sourceTree = "<group>"; };
+		1D40CE5A7CAE9F82F0B750166272BE33 /* libStreamingKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libStreamingKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF4840919010527C018BF8CC8C46F8E /* Pods-PlayAir-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PlayAir-frameworks.sh"; sourceTree = "<group>"; };
+		250BEE18533D08450D62B63FFD946D71 /* STKLocalFileDataSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STKLocalFileDataSource.m; path = StreamingKit/StreamingKit/STKLocalFileDataSource.m; sourceTree = "<group>"; };
+		2B95DE46BC4E1AB7774F2E9E5D945A4B /* libPods-PlayAir.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PlayAir.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		300545E97195B12AF9F86CD2B0FB12A8 /* StreamingKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "StreamingKit-prefix.pch"; sourceTree = "<group>"; };
+		3A8BD62B58984530A32930AC1AA7E6CB /* STKQueueEntry.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STKQueueEntry.m; path = StreamingKit/StreamingKit/STKQueueEntry.m; sourceTree = "<group>"; };
+		45A52856E88A97256923F70FE3BFC04A /* STKCoreFoundationDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STKCoreFoundationDataSource.h; path = StreamingKit/StreamingKit/STKCoreFoundationDataSource.h; sourceTree = "<group>"; };
+		4EC028388D847BCCDC6A1CF73238FF29 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Fabric.framework; path = iOS/Fabric.framework; sourceTree = "<group>"; };
+		59706F9066B622826A745D2589C04A97 /* Pods-PlayAir-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PlayAir-resources.sh"; sourceTree = "<group>"; };
+		65F75B7F4AE02A745364326F4E408100 /* STKQueueEntry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STKQueueEntry.h; path = StreamingKit/StreamingKit/STKQueueEntry.h; sourceTree = "<group>"; };
+		66B5386B54D80F17B51B33128E6388E1 /* STKDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STKDataSource.h; path = StreamingKit/StreamingKit/STKDataSource.h; sourceTree = "<group>"; };
+		6936B5B575CC32624718BE809DC7D787 /* Pods-PlayAir-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PlayAir-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6ABCB5909BB5BF4450B1F42D89E8FCC1 /* StreamingKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = StreamingKit.xcconfig; sourceTree = "<group>"; };
+		76167078521D0F6F40CA35B2392398B5 /* STKHTTPDataSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STKHTTPDataSource.m; path = StreamingKit/StreamingKit/STKHTTPDataSource.m; sourceTree = "<group>"; };
 		85FE4F3CBF11E091C31C32DA5F0CF0B0 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
-		8891C58B39E5D5EC65B5E905BE91B9FB /* STKCoreFoundationDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STKCoreFoundationDataSource.h; path = StreamingKit/StreamingKit/STKCoreFoundationDataSource.h; sourceTree = "<group>"; };
-		8CB71600A73BC7C60821584B5061231C /* STKDataSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STKDataSource.m; path = StreamingKit/StreamingKit/STKDataSource.m; sourceTree = "<group>"; };
-		9044B3177C0914581D8F3BF1C68953D4 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
-		90F7A0E5E75B3C779C2EADB04B1829B9 /* StreamingKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "StreamingKit-dummy.m"; sourceTree = "<group>"; };
-		9245DAE32CE0238815C686E3446249D4 /* STKAudioPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STKAudioPlayer.h; path = StreamingKit/StreamingKit/STKAudioPlayer.h; sourceTree = "<group>"; };
-		9545E6226E513A82C198E31B080175F2 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
-		95836CF1DD29BABBD4E944356394B94E /* STKLocalFileDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STKLocalFileDataSource.h; path = StreamingKit/StreamingKit/STKLocalFileDataSource.h; sourceTree = "<group>"; };
+		89A7C46D104E728530D5132EFFDEBCED /* STKAudioPlayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STKAudioPlayer.m; path = StreamingKit/StreamingKit/STKAudioPlayer.m; sourceTree = "<group>"; };
+		89FBC9DD8788A8CCE4B2084F59D03432 /* STKDataSourceWrapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STKDataSourceWrapper.m; path = StreamingKit/StreamingKit/STKDataSourceWrapper.m; sourceTree = "<group>"; };
+		8A05D69B0D204C3C9B2CA124EFD14677 /* STKAudioPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STKAudioPlayer.h; path = StreamingKit/StreamingKit/STKAudioPlayer.h; sourceTree = "<group>"; };
+		8CB4CED1C51C4DD49A082B5FBA17167B /* StreamingKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "StreamingKit-dummy.m"; sourceTree = "<group>"; };
 		9650D88D564222CA32DB44EB6B99A00A /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = DEVELOPER_DIR; };
-		982CD2EC78EB4D5877DA14A72A8D95DA /* Pods_PlayAir.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlayAir.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A2C95353E33782848F6489723E8C7C6C /* STKDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STKDataSource.h; path = StreamingKit/StreamingKit/STKDataSource.h; sourceTree = "<group>"; };
-		A7EBCC46AE546F6E5F6194AF625D8637 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B724483B05A912565121319BD8E7F72E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99ADEE9EA7D6D44FC00B99FB8B0064EF /* NSMutableArray+STKAudioPlayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+STKAudioPlayer.m"; path = "StreamingKit/StreamingKit/NSMutableArray+STKAudioPlayer.m"; sourceTree = "<group>"; };
+		9B83D75E9D7760974173514383E3FA4A /* STKLocalFileDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STKLocalFileDataSource.h; path = StreamingKit/StreamingKit/STKLocalFileDataSource.h; sourceTree = "<group>"; };
+		AB4BE2B187239F8299600B7A9B053A09 /* Pods-PlayAir.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PlayAir.release.xcconfig"; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BE1DCB6DCEC135E91FF852383C940BD2 /* Pods-PlayAir.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PlayAir.release.xcconfig"; sourceTree = "<group>"; };
-		C9D4329C0E99686B366E63ABA78B988E /* STKCoreFoundationDataSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STKCoreFoundationDataSource.m; path = StreamingKit/StreamingKit/STKCoreFoundationDataSource.m; sourceTree = "<group>"; };
+		C6649B1DDB186EB9C89FAA60075ECEC8 /* STKHTTPDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STKHTTPDataSource.h; path = StreamingKit/StreamingKit/STKHTTPDataSource.h; sourceTree = "<group>"; };
+		CB7A7B1E08CF3F8EF8B6C720E6806B66 /* STKAutoRecoveringHTTPDataSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STKAutoRecoveringHTTPDataSource.m; path = StreamingKit/StreamingKit/STKAutoRecoveringHTTPDataSource.m; sourceTree = "<group>"; };
 		CCC319E2DDB0C5D1139889B35C2C6164 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
 		CD13E4B6F98F3E8CB1F68F05F15E7ED4 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
-		CFB0988E1007F813FA677269F89A04EA /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Fabric.framework; path = iOS/Fabric.framework; sourceTree = "<group>"; };
-		CFFAE0C8495FF5392851B81A91335A5B /* StreamingKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "StreamingKit-prefix.pch"; sourceTree = "<group>"; };
-		D38EE438D55557E9D1BEA04879402464 /* STKLocalFileDataSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STKLocalFileDataSource.m; path = StreamingKit/StreamingKit/STKLocalFileDataSource.m; sourceTree = "<group>"; };
-		DA0E769CE0952ACAF0B6DD23DEC8F6F1 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
-		E1FBB22FE798B882B2E8B8F8FB6720D0 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
-		E482A60784AA1760AB720CB8505433A6 /* STKDataSourceWrapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STKDataSourceWrapper.m; path = StreamingKit/StreamingKit/STKDataSourceWrapper.m; sourceTree = "<group>"; };
-		E826922FD5F8A3462F65457246E973BE /* STKQueueEntry.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STKQueueEntry.m; path = StreamingKit/StreamingKit/STKQueueEntry.m; sourceTree = "<group>"; };
+		D8F0A4C247D5389726D91485A9163BF5 /* Pods-PlayAir-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PlayAir-acknowledgements.plist"; sourceTree = "<group>"; };
+		DBF52867B1A69F86570BE2B76465427D /* STKCoreFoundationDataSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STKCoreFoundationDataSource.m; path = StreamingKit/StreamingKit/STKCoreFoundationDataSource.m; sourceTree = "<group>"; };
 		EC48E228A95084B93A297299D7CA6B30 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		EC8CA9BC5AB1BFC0520585AAC1419AED /* StreamingKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "StreamingKit-umbrella.h"; sourceTree = "<group>"; };
-		ED33E99A71DA7F64B4A9DFA9412F5114 /* Pods-PlayAir-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PlayAir-acknowledgements.plist"; sourceTree = "<group>"; };
-		F1B719A15872B4F93DC48306CD011336 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
-		FA38B118973CCFAE865ADB93B775BAAC /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
-		FA3D2DF3F2FE5D1BFC96BA6329260762 /* Pods-PlayAir-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PlayAir-umbrella.h"; sourceTree = "<group>"; };
-		FCE9332020D6646B9A5D95E0F30C9A96 /* STKDataSourceWrapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STKDataSourceWrapper.h; path = StreamingKit/StreamingKit/STKDataSourceWrapper.h; sourceTree = "<group>"; };
-		FE6BFBE497DA55797E26706556D8B0BC /* Pods-PlayAir-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PlayAir-dummy.m"; sourceTree = "<group>"; };
-		FFEE258BC7586BCE056048AB7CA43438 /* STKAutoRecoveringHTTPDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STKAutoRecoveringHTTPDataSource.h; path = StreamingKit/StreamingKit/STKAutoRecoveringHTTPDataSource.h; sourceTree = "<group>"; };
+		F454F0E4612F4336586AF5230B6BACD3 /* Pods-PlayAir.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PlayAir.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		61F560B609527D3D42936D18B0869F06 /* Frameworks */ = {
+		72B3480C10D208CA1069DC42833C577A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				632001E47341E955F1C94F0CEFCF4546 /* AudioToolbox.framework in Frameworks */,
-				AF03C7C3C45189682B2DB2CF983CE440 /* CFNetwork.framework in Frameworks */,
-				62797EC77F762DE2A8B26995EFCA17D5 /* CoreFoundation.framework in Frameworks */,
-				E7C32292C996624AB4EF161028820996 /* Foundation.framework in Frameworks */,
-				A3077475FB0F958DF196056B2044C48E /* SystemConfiguration.framework in Frameworks */,
+				BDCE8A67FA1FFA10F57E8578283E332B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9EF2FB1B09FA5B8F916496D04F31893C /* Frameworks */ = {
+		CC1C03C4548B250CF4276997F1BBC5A0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33837293EF60693AA8D210B868FFBDBF /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B1729F851F648EC60EE93CDB3C8BAEAD /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7BA049A8A530320D26A5FED8582518B9 /* Foundation.framework in Frameworks */,
+				F812289C1F9E7A85D876B4CBA6D5A157 /* AudioToolbox.framework in Frameworks */,
+				21AB3B096E20DB22AA2DCD91621BE93F /* CFNetwork.framework in Frameworks */,
+				73D6E5064F88A704C1A9301C25588FED /* CoreFoundation.framework in Frameworks */,
+				99DED0D8873EF3EA4238565BD3D20208 /* Foundation.framework in Frameworks */,
+				B874B963236D7923CF459A7265D5ADE4 /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		19C9FFC520574162D4E302E0B54DE489 /* Fabric */ = {
+		0A706172C0F05CC9A1544FBD19E89B8D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				72DCF2DD5B25173C592A7B2A28F8077B /* Frameworks */,
+				162F4CD93AB9E57AE195EBE1677B4B70 /* Crashlytics.framework */,
 			);
-			path = Fabric;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		10E8692C19FE53C183B8F64E99044A76 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3837602D7BEE3D387F2D5D718B816566 /* Pods-PlayAir */,
+			);
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		20B56609144CE204DFA8221F742B2D76 /* Frameworks */ = {
@@ -193,71 +134,69 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		21B22667377CDBDE355685205EADFB29 /* Pods-PlayAir */ = {
+		279C8D8B23EAA6173C28A4C7C8534E43 /* Crashlytics */ = {
 			isa = PBXGroup;
 			children = (
-				B724483B05A912565121319BD8E7F72E /* Info.plist */,
-				04B6D917A7B15B12F65921CDD2D202F6 /* Pods-PlayAir.modulemap */,
-				7A3DFADE42B11C290FFBCFF0353E6C3C /* Pods-PlayAir-acknowledgements.markdown */,
-				ED33E99A71DA7F64B4A9DFA9412F5114 /* Pods-PlayAir-acknowledgements.plist */,
-				FE6BFBE497DA55797E26706556D8B0BC /* Pods-PlayAir-dummy.m */,
-				2A5D952F431E4893C4EF1B702E30AEF4 /* Pods-PlayAir-frameworks.sh */,
-				32F77ABA91DC5BC02F090234CC3AB9BD /* Pods-PlayAir-resources.sh */,
-				FA3D2DF3F2FE5D1BFC96BA6329260762 /* Pods-PlayAir-umbrella.h */,
-				45E088EB11C89F98F92380375794B0B4 /* Pods-PlayAir.debug.xcconfig */,
-				BE1DCB6DCEC135E91FF852383C940BD2 /* Pods-PlayAir.release.xcconfig */,
+				0A706172C0F05CC9A1544FBD19E89B8D /* Frameworks */,
+			);
+			path = Crashlytics;
+			sourceTree = "<group>";
+		};
+		34E4F189B008AFA4F893BE33E644D385 /* Fabric */ = {
+			isa = PBXGroup;
+			children = (
+				7790F3D8E68508D8B744CD26AE119B0E /* Frameworks */,
+			);
+			path = Fabric;
+			sourceTree = "<group>";
+		};
+		3837602D7BEE3D387F2D5D718B816566 /* Pods-PlayAir */ = {
+			isa = PBXGroup;
+			children = (
+				6936B5B575CC32624718BE809DC7D787 /* Pods-PlayAir-acknowledgements.markdown */,
+				D8F0A4C247D5389726D91485A9163BF5 /* Pods-PlayAir-acknowledgements.plist */,
+				03FF5A0436D63A05AA6EC95305E2BFF5 /* Pods-PlayAir-dummy.m */,
+				1DF4840919010527C018BF8CC8C46F8E /* Pods-PlayAir-frameworks.sh */,
+				59706F9066B622826A745D2589C04A97 /* Pods-PlayAir-resources.sh */,
+				F454F0E4612F4336586AF5230B6BACD3 /* Pods-PlayAir.debug.xcconfig */,
+				AB4BE2B187239F8299600B7A9B053A09 /* Pods-PlayAir.release.xcconfig */,
 			);
 			name = "Pods-PlayAir";
 			path = "Target Support Files/Pods-PlayAir";
 			sourceTree = "<group>";
 		};
-		574B245AB46EE11D6E13A4F8F163C3B0 /* Alamofire */ = {
+		7790F3D8E68508D8B744CD26AE119B0E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				50B21F9D12849474E1CA1C240A702F39 /* Alamofire.swift */,
-				7D6E95E6A077D9AEE76D6CC340F2B02A /* Download.swift */,
-				6E6969ABD66C08A19AC9E3D84241F78E /* Error.swift */,
-				646B4EEB3F887E271A8D2F4DC072D422 /* Manager.swift */,
-				174C048A9452CFCC0973C22D1E451503 /* MultipartFormData.swift */,
-				8322390F58D70AF1532A02A26385CED1 /* NetworkReachabilityManager.swift */,
-				75D24C7075A76C89D60E0E78D62596CF /* Notifications.swift */,
-				9545E6226E513A82C198E31B080175F2 /* ParameterEncoding.swift */,
-				156B6E8C6BF8A0DB09FD73BC83843742 /* Request.swift */,
-				DA0E769CE0952ACAF0B6DD23DEC8F6F1 /* Response.swift */,
-				27C424FA76D6B854B724854E9DF24764 /* ResponseSerialization.swift */,
-				E1FBB22FE798B882B2E8B8F8FB6720D0 /* Result.swift */,
-				F1B719A15872B4F93DC48306CD011336 /* ServerTrustPolicy.swift */,
-				01CAAB21773155D7A71697DE3F57F117 /* Stream.swift */,
-				3E3A0C867237A67AE0E5C9B802603336 /* Timeline.swift */,
-				2632B35F1C5E4E7248C43B04548EC614 /* Upload.swift */,
-				7AB4262B6B61EE824A151185FBD65973 /* Validation.swift */,
-				7EB4800DA22B49E7EBCD14DA12A4E37E /* Support Files */,
-			);
-			path = Alamofire;
-			sourceTree = "<group>";
-		};
-		72DCF2DD5B25173C592A7B2A28F8077B /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				CFB0988E1007F813FA677269F89A04EA /* Fabric.framework */,
+				4EC028388D847BCCDC6A1CF73238FF29 /* Fabric.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		731D6AE7E091DE7E3AA3489E694BB2F7 /* Targets Support Files */ = {
+		7ADC1FDEB53F68900426AD593F5D7071 /* StreamingKit */ = {
 			isa = PBXGroup;
 			children = (
-				21B22667377CDBDE355685205EADFB29 /* Pods-PlayAir */,
+				085C8BDF6B3D88C0436C0D062C1A78B6 /* NSMutableArray+STKAudioPlayer.h */,
+				99ADEE9EA7D6D44FC00B99FB8B0064EF /* NSMutableArray+STKAudioPlayer.m */,
+				8A05D69B0D204C3C9B2CA124EFD14677 /* STKAudioPlayer.h */,
+				89A7C46D104E728530D5132EFFDEBCED /* STKAudioPlayer.m */,
+				00BF7BE43D3BC9D676778B14D7BD07C3 /* STKAutoRecoveringHTTPDataSource.h */,
+				CB7A7B1E08CF3F8EF8B6C720E6806B66 /* STKAutoRecoveringHTTPDataSource.m */,
+				45A52856E88A97256923F70FE3BFC04A /* STKCoreFoundationDataSource.h */,
+				DBF52867B1A69F86570BE2B76465427D /* STKCoreFoundationDataSource.m */,
+				66B5386B54D80F17B51B33128E6388E1 /* STKDataSource.h */,
+				0941A73C21F274B36790D94A252930F7 /* STKDataSource.m */,
+				19626EAB35E18B0958A69361C8546EE3 /* STKDataSourceWrapper.h */,
+				89FBC9DD8788A8CCE4B2084F59D03432 /* STKDataSourceWrapper.m */,
+				C6649B1DDB186EB9C89FAA60075ECEC8 /* STKHTTPDataSource.h */,
+				76167078521D0F6F40CA35B2392398B5 /* STKHTTPDataSource.m */,
+				9B83D75E9D7760974173514383E3FA4A /* STKLocalFileDataSource.h */,
+				250BEE18533D08450D62B63FFD946D71 /* STKLocalFileDataSource.m */,
+				65F75B7F4AE02A745364326F4E408100 /* STKQueueEntry.h */,
+				3A8BD62B58984530A32930AC1AA7E6CB /* STKQueueEntry.m */,
+				816EFA93CA5630519A45D11467A81C53 /* Support Files */,
 			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		75FADFC78C698FFAD04F23FAD697C9E6 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				02BE9C2165FC8DA3D3FD0C71429A6A2A /* Crashlytics.framework */,
-			);
-			name = Frameworks;
+			path = StreamingKit;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -265,91 +204,29 @@
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
 				20B56609144CE204DFA8221F742B2D76 /* Frameworks */,
-				C1EDB6821944C42B2596B63D14404FFD /* Pods */,
-				B98EE6E3A0A5BD09F14DCCC22B0C028A /* Products */,
-				731D6AE7E091DE7E3AA3489E694BB2F7 /* Targets Support Files */,
+				ADBBAFD49CFBA26D8B1741855D545E0C /* Pods */,
+				E9F1EBC55AD91276D2BE1C1B42AD80E6 /* Products */,
+				10E8692C19FE53C183B8F64E99044A76 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		7EB4800DA22B49E7EBCD14DA12A4E37E /* Support Files */ = {
+		816EFA93CA5630519A45D11467A81C53 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				2E412FF608022FF779D8980E3C969107 /* Alamofire.modulemap */,
-				FA38B118973CCFAE865ADB93B775BAAC /* Alamofire.xcconfig */,
-				10B734CD6B97D24736FD222E19214ED2 /* Alamofire-dummy.m */,
-				65D4EACBBB1BF97EAA9E5FFD82FC31F9 /* Alamofire-prefix.pch */,
-				9044B3177C0914581D8F3BF1C68953D4 /* Alamofire-umbrella.h */,
-				29C03AFF8C48C7706B553CED52417AD8 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Alamofire";
-			sourceTree = "<group>";
-		};
-		860E335FFC2898C5170B486C45FA1736 /* StreamingKit */ = {
-			isa = PBXGroup;
-			children = (
-				2B1E92997D74402FF94CBF4A719F0885 /* NSMutableArray+STKAudioPlayer.h */,
-				4E04DEBCB417CB6FF573782C987B3DE5 /* NSMutableArray+STKAudioPlayer.m */,
-				9245DAE32CE0238815C686E3446249D4 /* STKAudioPlayer.h */,
-				1711C4BEBD58223032C68DE8E82DA01A /* STKAudioPlayer.m */,
-				FFEE258BC7586BCE056048AB7CA43438 /* STKAutoRecoveringHTTPDataSource.h */,
-				35BFEEDB4933BBEF77B082717FF0046B /* STKAutoRecoveringHTTPDataSource.m */,
-				8891C58B39E5D5EC65B5E905BE91B9FB /* STKCoreFoundationDataSource.h */,
-				C9D4329C0E99686B366E63ABA78B988E /* STKCoreFoundationDataSource.m */,
-				A2C95353E33782848F6489723E8C7C6C /* STKDataSource.h */,
-				8CB71600A73BC7C60821584B5061231C /* STKDataSource.m */,
-				FCE9332020D6646B9A5D95E0F30C9A96 /* STKDataSourceWrapper.h */,
-				E482A60784AA1760AB720CB8505433A6 /* STKDataSourceWrapper.m */,
-				027FD7E0D4E5FB6A1F8E1E25FB1C2491 /* STKHTTPDataSource.h */,
-				2B52B4E089D8E61BF2640665946FFAB4 /* STKHTTPDataSource.m */,
-				95836CF1DD29BABBD4E944356394B94E /* STKLocalFileDataSource.h */,
-				D38EE438D55557E9D1BEA04879402464 /* STKLocalFileDataSource.m */,
-				510AADB4ED332EF6E80CC7B1D1F3F446 /* STKQueueEntry.h */,
-				E826922FD5F8A3462F65457246E973BE /* STKQueueEntry.m */,
-				90C7A72DF831AAB0013A3864C6446B7B /* Support Files */,
-			);
-			path = StreamingKit;
-			sourceTree = "<group>";
-		};
-		90C7A72DF831AAB0013A3864C6446B7B /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				A7EBCC46AE546F6E5F6194AF625D8637 /* Info.plist */,
-				16997509C84462879AADB39B51306C67 /* StreamingKit.modulemap */,
-				7AF28EA2882BE7DBB85329BBA5A0D18E /* StreamingKit.xcconfig */,
-				90F7A0E5E75B3C779C2EADB04B1829B9 /* StreamingKit-dummy.m */,
-				CFFAE0C8495FF5392851B81A91335A5B /* StreamingKit-prefix.pch */,
-				EC8CA9BC5AB1BFC0520585AAC1419AED /* StreamingKit-umbrella.h */,
+				6ABCB5909BB5BF4450B1F42D89E8FCC1 /* StreamingKit.xcconfig */,
+				8CB4CED1C51C4DD49A082B5FBA17167B /* StreamingKit-dummy.m */,
+				300545E97195B12AF9F86CD2B0FB12A8 /* StreamingKit-prefix.pch */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/StreamingKit";
 			sourceTree = "<group>";
 		};
-		982FF742005F948A01A22062C9FC0480 /* Crashlytics */ = {
+		ADBBAFD49CFBA26D8B1741855D545E0C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				75FADFC78C698FFAD04F23FAD697C9E6 /* Frameworks */,
-			);
-			path = Crashlytics;
-			sourceTree = "<group>";
-		};
-		B98EE6E3A0A5BD09F14DCCC22B0C028A /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				1DE4BCF955C8058E3C629F5583C85B29 /* Alamofire.framework */,
-				982CD2EC78EB4D5877DA14A72A8D95DA /* Pods_PlayAir.framework */,
-				3411E74321FAAAD7C9E8345978D6504C /* StreamingKit.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		C1EDB6821944C42B2596B63D14404FFD /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				574B245AB46EE11D6E13A4F8F163C3B0 /* Alamofire */,
-				982FF742005F948A01A22062C9FC0480 /* Crashlytics */,
-				19C9FFC520574162D4E302E0B54DE489 /* Fabric */,
-				860E335FFC2898C5170B486C45FA1736 /* StreamingKit */,
+				279C8D8B23EAA6173C28A4C7C8534E43 /* Crashlytics */,
+				34E4F189B008AFA4F893BE33E644D385 /* Fabric */,
+				7ADC1FDEB53F68900426AD593F5D7071 /* StreamingKit */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -366,71 +243,44 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		E9F1EBC55AD91276D2BE1C1B42AD80E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B95DE46BC4E1AB7774F2E9E5D945A4B /* libPods-PlayAir.a */,
+				1D40CE5A7CAE9F82F0B750166272BE33 /* libStreamingKit.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		91A4FA286A7F0EB4C07FF9F02D5981F6 /* Headers */ = {
+		8C173B1B9D5580E4583997E784BE35FC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B3B69A43EDF4B2CB37C0F4E24000FB8 /* Pods-PlayAir-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C13913684C6DA623CB254856D105189F /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9F7F73C95B0F725E0ABBFCE8DD92ECFA /* NSMutableArray+STKAudioPlayer.h in Headers */,
-				517415042AFB153BFCA0CF6D684326FD /* STKAudioPlayer.h in Headers */,
-				A8C4A37950C9D86A211883931358ED70 /* STKAutoRecoveringHTTPDataSource.h in Headers */,
-				80A9DA6D5740CB3CD58CDD6B9481B839 /* STKCoreFoundationDataSource.h in Headers */,
-				75BC26BD8558E42EC4A914012C8FE424 /* STKDataSource.h in Headers */,
-				D096A0714F401BEFE9418A94B9DE81BA /* STKDataSourceWrapper.h in Headers */,
-				0522CED0E7F6F082C56ACD17D12B7713 /* STKHTTPDataSource.h in Headers */,
-				D2C081B5498EA9AB275429BE17797590 /* STKLocalFileDataSource.h in Headers */,
-				736242375F18CAF4911CBA11F1986A9A /* STKQueueEntry.h in Headers */,
-				7892573528EA8ADEEBAA07926D0D3D7F /* StreamingKit-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EFDF3B631BBB965A372347705CA14854 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9469DF81ECB494E84675969B5E13374C /* Alamofire-umbrella.h in Headers */,
+				846E3FA2C900104324E6E6C587A87407 /* NSMutableArray+STKAudioPlayer.h in Headers */,
+				B4D90953FEB4F46837A78519675ED151 /* STKAudioPlayer.h in Headers */,
+				6515CFBA823DAC52F327DE479CAFEFBF /* STKAutoRecoveringHTTPDataSource.h in Headers */,
+				02B503C615A8A22CF2E77755A7A8697B /* STKCoreFoundationDataSource.h in Headers */,
+				E793C05624B6E01F6A8B553B08EAE93F /* STKDataSource.h in Headers */,
+				F5C7C874F001EB8E903C8148E2A4AE0F /* STKDataSourceWrapper.h in Headers */,
+				26DD611FAB2F49117EC08C0F9F884474 /* STKHTTPDataSource.h in Headers */,
+				59AEB86778A04063720680785A67A1AC /* STKLocalFileDataSource.h in Headers */,
+				6C9AFC046F6A75FA8CA75ECC21E03113 /* STKQueueEntry.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0597E541F11BF78202CCB170CFDF823C /* Pods-PlayAir */ = {
+		15486DD5EC244A4B829ABA0AEC149EBD /* StreamingKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F603DD792E7AB0FC9CABE804EF4970EA /* Build configuration list for PBXNativeTarget "Pods-PlayAir" */;
+			buildConfigurationList = 1DB9790A01E0C124B5884784929AC703 /* Build configuration list for PBXNativeTarget "StreamingKit" */;
 			buildPhases = (
-				4D3C2ABB2BE0E6582CAC94C03863450E /* Sources */,
-				9EF2FB1B09FA5B8F916496D04F31893C /* Frameworks */,
-				91A4FA286A7F0EB4C07FF9F02D5981F6 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				915DEC4AB3EB405EAFF2987E8126964D /* PBXTargetDependency */,
-				2727B9C1B51CF1433128687B9358DFB7 /* PBXTargetDependency */,
-			);
-			name = "Pods-PlayAir";
-			productName = "Pods-PlayAir";
-			productReference = 982CD2EC78EB4D5877DA14A72A8D95DA /* Pods_PlayAir.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		2611132BA31DEDFCFD8F582D2EE2B498 /* StreamingKit */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8C980257D3F4B6DB3195E0DC7BBFFCDF /* Build configuration list for PBXNativeTarget "StreamingKit" */;
-			buildPhases = (
-				C1B02F82099962E7267A8AC5BB7B3FD5 /* Sources */,
-				61F560B609527D3D42936D18B0869F06 /* Frameworks */,
-				C13913684C6DA623CB254856D105189F /* Headers */,
+				F53F662F80D56E25DC1536F008EC32CB /* Sources */,
+				CC1C03C4548B250CF4276997F1BBC5A0 /* Frameworks */,
+				8C173B1B9D5580E4583997E784BE35FC /* Headers */,
 			);
 			buildRules = (
 			);
@@ -438,25 +288,25 @@
 			);
 			name = StreamingKit;
 			productName = StreamingKit;
-			productReference = 3411E74321FAAAD7C9E8345978D6504C /* StreamingKit.framework */;
-			productType = "com.apple.product-type.framework";
+			productReference = 1D40CE5A7CAE9F82F0B750166272BE33 /* libStreamingKit.a */;
+			productType = "com.apple.product-type.library.static";
 		};
-		79C040AFDDCE1BCBF6D8B5EB0B85887F /* Alamofire */ = {
+		183DA2BEDCCFAE7B2962D7F7CE6FD436 /* Pods-PlayAir */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3CFB42910790CF0BDBCCEBAACD6B9367 /* Build configuration list for PBXNativeTarget "Alamofire" */;
+			buildConfigurationList = 243A82C047D9AFED92A246F483115DD2 /* Build configuration list for PBXNativeTarget "Pods-PlayAir" */;
 			buildPhases = (
-				95CC2C7E06DC188A05DAAEE9CAA555A3 /* Sources */,
-				B1729F851F648EC60EE93CDB3C8BAEAD /* Frameworks */,
-				EFDF3B631BBB965A372347705CA14854 /* Headers */,
+				D17CDA16316DE0D734CA206E5FF68286 /* Sources */,
+				72B3480C10D208CA1069DC42833C577A /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				74C8B037FD36DEB7A78D666DA9AB7C6F /* PBXTargetDependency */,
 			);
-			name = Alamofire;
-			productName = Alamofire;
-			productReference = 1DE4BCF955C8058E3C629F5583C85B29 /* Alamofire.framework */;
-			productType = "com.apple.product-type.framework";
+			name = "Pods-PlayAir";
+			productName = "Pods-PlayAir";
+			productReference = 2B95DE46BC4E1AB7774F2E9E5D945A4B /* libPods-PlayAir.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
@@ -475,150 +325,72 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = B98EE6E3A0A5BD09F14DCCC22B0C028A /* Products */;
+			productRefGroup = E9F1EBC55AD91276D2BE1C1B42AD80E6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				79C040AFDDCE1BCBF6D8B5EB0B85887F /* Alamofire */,
-				0597E541F11BF78202CCB170CFDF823C /* Pods-PlayAir */,
-				2611132BA31DEDFCFD8F582D2EE2B498 /* StreamingKit */,
+				183DA2BEDCCFAE7B2962D7F7CE6FD436 /* Pods-PlayAir */,
+				15486DD5EC244A4B829ABA0AEC149EBD /* StreamingKit */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4D3C2ABB2BE0E6582CAC94C03863450E /* Sources */ = {
+		D17CDA16316DE0D734CA206E5FF68286 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D0879F7A7225F947A08D0ACE4260B2E /* Pods-PlayAir-dummy.m in Sources */,
+				6CBFD96DA141AE602E8A55D6D0C9A550 /* Pods-PlayAir-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		95CC2C7E06DC188A05DAAEE9CAA555A3 /* Sources */ = {
+		F53F662F80D56E25DC1536F008EC32CB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADF19C953CE2A7D0B72EC93A81FCCC26 /* Alamofire-dummy.m in Sources */,
-				8EB11202167FCDDF1257AAAB1D1FB244 /* Alamofire.swift in Sources */,
-				5CB05FBCB32D21E194B5ECF680CB6AE0 /* Download.swift in Sources */,
-				095406039B4D371E48D08B38A2975AC8 /* Error.swift in Sources */,
-				4081EA628AF0B73AC51FFB9D7AB3B89E /* Manager.swift in Sources */,
-				C7B6DD7C0456C50289A2C381DFE9FA3F /* MultipartFormData.swift in Sources */,
-				34CCDCA848A701466256BC2927DA8856 /* NetworkReachabilityManager.swift in Sources */,
-				BE41196F6A3903E59C3306FE3F8B43FE /* Notifications.swift in Sources */,
-				C0DB70AB368765DC64BFB5FEA75E0696 /* ParameterEncoding.swift in Sources */,
-				EFE92E8D3813DD26E78E93EEAF6D7E7E /* Request.swift in Sources */,
-				62E8346F03C03E7F4D631361F325689E /* Response.swift in Sources */,
-				3EA8F215C9C1432D74E5CCA4834AA8C0 /* ResponseSerialization.swift in Sources */,
-				AA314156AC500125F4078EE968DB14C6 /* Result.swift in Sources */,
-				7B48852C4D848FA2DA416A98F6425869 /* ServerTrustPolicy.swift in Sources */,
-				AE4CF87C02C042DF13ED5B21C4FDC1E0 /* Stream.swift in Sources */,
-				16102E4E35FAA0FC4161282FECE56469 /* Timeline.swift in Sources */,
-				5BC19E6E0F199276003F0AF96838BCE5 /* Upload.swift in Sources */,
-				2D3405986FC586FA6C0A5E0B6BA7E64E /* Validation.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C1B02F82099962E7267A8AC5BB7B3FD5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				46FEF2508B5397303F150782576ACF1F /* NSMutableArray+STKAudioPlayer.m in Sources */,
-				0D6D7A7CC189B9875B84C3DF37201E3E /* STKAudioPlayer.m in Sources */,
-				C8061806D522C15DDD6C838A1938B9AE /* STKAutoRecoveringHTTPDataSource.m in Sources */,
-				08F8DC279669511D742E2626FE32BF01 /* STKCoreFoundationDataSource.m in Sources */,
-				199FBB85C282F548D3D30692C64C8215 /* STKDataSource.m in Sources */,
-				B3B342FABD8A8DAE80FF17C70FB24E19 /* STKDataSourceWrapper.m in Sources */,
-				FAB0B1D9699EB40310783D640BE2937A /* STKHTTPDataSource.m in Sources */,
-				BD434E69AC383997CECF38EE6ED98D0F /* STKLocalFileDataSource.m in Sources */,
-				39A0D637CDC0324C54400E0AEDFF6424 /* STKQueueEntry.m in Sources */,
-				8A7C98DFEAE162AB36D927B6C1469811 /* StreamingKit-dummy.m in Sources */,
+				02865F5D53A5F72DEDAA258D7FA24303 /* NSMutableArray+STKAudioPlayer.m in Sources */,
+				4D956D9A7F51A359FB54D71BE7C53A32 /* STKAudioPlayer.m in Sources */,
+				F924A42DCC55A6BEFDE0554495AD2359 /* STKAutoRecoveringHTTPDataSource.m in Sources */,
+				6B510BB8E32BD59017D11D5512A70CDB /* STKCoreFoundationDataSource.m in Sources */,
+				DF3F2AB245F8B6DFF2B88548967265DB /* STKDataSource.m in Sources */,
+				96B337996F291FBD4799C7749B8A9CDB /* STKDataSourceWrapper.m in Sources */,
+				3B486FE60771B5C5F708673F82799E67 /* STKHTTPDataSource.m in Sources */,
+				58050485B6490C001CF38B79573DBBB5 /* STKLocalFileDataSource.m in Sources */,
+				2B9469F743D4A6F612FC7C0F07AF3BC9 /* STKQueueEntry.m in Sources */,
+				E20D2E0F9DAB4A94B7AE5456127E2426 /* StreamingKit-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2727B9C1B51CF1433128687B9358DFB7 /* PBXTargetDependency */ = {
+		74C8B037FD36DEB7A78D666DA9AB7C6F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = StreamingKit;
-			target = 2611132BA31DEDFCFD8F582D2EE2B498 /* StreamingKit */;
-			targetProxy = 0C63FB9EA34DA867887B3A3056454178 /* PBXContainerItemProxy */;
-		};
-		915DEC4AB3EB405EAFF2987E8126964D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Alamofire;
-			target = 79C040AFDDCE1BCBF6D8B5EB0B85887F /* Alamofire */;
-			targetProxy = F329FADE78DB9B9F73FF1103164F4D74 /* PBXContainerItemProxy */;
+			target = 15486DD5EC244A4B829ABA0AEC149EBD /* StreamingKit */;
+			targetProxy = 9E1A035F5CEBC67EFC8C39BF70488348 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0148E5F1D4BA276B6E7C5BA7CA00F36B /* Release */ = {
+		29774D23A452F76A04673F31AF0CFB08 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BE1DCB6DCEC135E91FF852383C940BD2 /* Pods-PlayAir.release.xcconfig */;
+			baseConfigurationReference = F454F0E4612F4336586AF5230B6BACD3 /* Pods-PlayAir.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-PlayAir/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PlayAir/Pods-PlayAir.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_PlayAir;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		11B42FB3521F3774BEEF63ECD262E6EE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 45E088EB11C89F98F92380375794B0B4 /* Pods-PlayAir.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-PlayAir/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PlayAir/Pods-PlayAir.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_PlayAir;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
@@ -663,122 +435,68 @@
 			};
 			name = Debug;
 		};
-		32AD5F8918CA8B349E4671410FA624C9 /* Release */ = {
+		5BA096138BD265C29CFE9B81BC19B937 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FA38B118973CCFAE865ADB93B775BAAC /* Alamofire.xcconfig */;
+			baseConfigurationReference = 6ABCB5909BB5BF4450B1F42D89E8FCC1 /* StreamingKit.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Alamofire;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		4784F9C90E72D73B67F2DB855561713B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7AF28EA2882BE7DBB85329BBA5A0D18E /* StreamingKit.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/StreamingKit/StreamingKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/StreamingKit/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/StreamingKit/StreamingKit.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = StreamingKit;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BB4E253D5005BDA81BC0594B4BEBC5B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB4BE2B187239F8299600B7A9B053A09 /* Pods-PlayAir.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
-		75218111E718FACE36F771E8ABECDB62 /* Debug */ = {
+		C3EAFBFA77E17F39A6154B8860C6D182 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FA38B118973CCFAE865ADB93B775BAAC /* Alamofire.xcconfig */;
+			baseConfigurationReference = 6ABCB5909BB5BF4450B1F42D89E8FCC1 /* StreamingKit.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Alamofire;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		C5AC561C7EE472AFE8DCED5CC0FBFBAA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7AF28EA2882BE7DBB85329BBA5A0D18E /* StreamingKit.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/StreamingKit/StreamingKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/StreamingKit/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/StreamingKit/StreamingKit.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = StreamingKit;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		C6544A1F1139551CE6C6C9B43404CFA3 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -820,38 +538,29 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1DB9790A01E0C124B5884784929AC703 /* Build configuration list for PBXNativeTarget "StreamingKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BA096138BD265C29CFE9B81BC19B937 /* Debug */,
+				C3EAFBFA77E17F39A6154B8860C6D182 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		243A82C047D9AFED92A246F483115DD2 /* Build configuration list for PBXNativeTarget "Pods-PlayAir" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29774D23A452F76A04673F31AF0CFB08 /* Debug */,
+				BB4E253D5005BDA81BC0594B4BEBC5B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2CE16AC72762C01C5DC595053F1F2EF4 /* Debug */,
 				C6544A1F1139551CE6C6C9B43404CFA3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3CFB42910790CF0BDBCCEBAACD6B9367 /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				75218111E718FACE36F771E8ABECDB62 /* Debug */,
-				32AD5F8918CA8B349E4671410FA624C9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8C980257D3F4B6DB3195E0DC7BBFFCDF /* Build configuration list for PBXNativeTarget "StreamingKit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C5AC561C7EE472AFE8DCED5CC0FBFBAA /* Debug */,
-				4784F9C90E72D73B67F2DB855561713B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F603DD792E7AB0FC9CABE804EF4970EA /* Build configuration list for PBXNativeTarget "Pods-PlayAir" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				11B42FB3521F3774BEEF63ECD262E6EE /* Debug */,
-				0148E5F1D4BA276B6E7C5BA7CA00F36B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,6 +1,0 @@
-framework module Pods_PlayAir {
-  umbrella header "Pods-PlayAir-umbrella.h"
-
-  export *
-  module * { export * }
-}
