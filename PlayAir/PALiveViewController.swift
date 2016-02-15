@@ -6,6 +6,7 @@
 //  Copyright © 2016 Farrah. All rights reserved.
 //
 
+import StreamingKit
 import UIKit
 
 class PALiveViewController: UIViewController, STKAudioPlayerDelegate {

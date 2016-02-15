@@ -3,20 +3,25 @@ PODS:
     - Fabric (~> 1.6.3)
   - Fabric (1.6.5)
   - Persei (2.0.1)
+  - Realm (0.98.1):
+    - Realm/Headers (= 0.98.1)
+  - Realm/Headers (0.98.1)
   - StreamingKit (0.1.29)
 
 DEPENDENCIES:
   - Crashlytics
   - Fabric
   - Persei
+  - Realm
   - StreamingKit
 
 SPEC CHECKSUMS:
   Crashlytics: e4e8d02914f2608fbc7bf42b1a7af838b0db67a2
   Fabric: 338ffd3c2afcab120638907b4251189de9ad17b3
   Persei: 0cac86b27592be808823a2846e4854ae60332f18
+  Realm: ca4a4122e939e228e10694fc49011386cb2ecb07
   StreamingKit: c329785aaef3ac142d4ae388345bfe1ed23cfd45
 
-PODFILE CHECKSUM: da991039d53362afc5bf770127304976885f2b82
+PODFILE CHECKSUM: c42109a099c3580414675635e625a98f42865ecd
 
 COCOAPODS: 1.0.0.beta.3

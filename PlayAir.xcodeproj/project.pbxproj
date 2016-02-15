@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3CFCEF2969E585C3F2A34A5E /* Pods_PlayAir.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81F718D8B74F46E9B6C4F819 /* Pods_PlayAir.framework */; };
 		E11C61BF1C70E6C1003B0812 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11C61BE1C70E6C1003B0812 /* AppDelegate.swift */; };
 		E11C61C61C70E6C1003B0812 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E11C61C41C70E6C1003B0812 /* Main.storyboard */; };
 		E11C61C81C70E6C1003B0812 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E11C61C71C70E6C1003B0812 /* Assets.xcassets */; };
@@ -31,6 +30,7 @@
 		E1FEE8B41C72615B00E33C45 /* content_films.png in Resources */ = {isa = PBXBuildFile; fileRef = E1FEE8AC1C72615B00E33C45 /* content_films.png */; };
 		E1FEE8B51C72615B00E33C45 /* content_films@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E1FEE8AD1C72615B00E33C45 /* content_films@2x.png */; };
 		E1FEE8B61C72615B00E33C45 /* content_music@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E1FEE8AE1C72615B00E33C45 /* content_music@3x.png */; };
+		FF633E265491E219E53A53D0 /* Pods_PlayAir.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D74A1AA893798DFB9A803C5 /* Pods_PlayAir.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +52,7 @@
 
 /* Begin PBXFileReference section */
 		08107251195C7B6FCE633BCE /* Pods-PlayAir.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayAir.release.xcconfig"; path = "Pods/Target Support Files/Pods-PlayAir/Pods-PlayAir.release.xcconfig"; sourceTree = "<group>"; };
-		81F718D8B74F46E9B6C4F819 /* Pods_PlayAir.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlayAir.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D74A1AA893798DFB9A803C5 /* Pods_PlayAir.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlayAir.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A73CB8DBA41DC93DF384F62D /* Pods-PlayAir.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayAir.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PlayAir/Pods-PlayAir.debug.xcconfig"; sourceTree = "<group>"; };
 		E11C61BB1C70E6C1003B0812 /* PlayAir.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayAir.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E11C61BE1C70E6C1003B0812 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -95,7 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3CFCEF2969E585C3F2A34A5E /* Pods_PlayAir.framework in Frameworks */,
+				FF633E265491E219E53A53D0 /* Pods_PlayAir.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,7 +130,7 @@
 			children = (
 				E125674D1C710075009DA008 /* AudioToolbox.framework */,
 				E125674B1C710070009DA008 /* AVFoundation.framework */,
-				81F718D8B74F46E9B6C4F819 /* Pods_PlayAir.framework */,
+				0D74A1AA893798DFB9A803C5 /* Pods_PlayAir.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
