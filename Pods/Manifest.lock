@@ -2,18 +2,21 @@ PODS:
   - Crashlytics (3.6.0):
     - Fabric (~> 1.6.3)
   - Fabric (1.6.5)
+  - Persei (2.0.1)
   - StreamingKit (0.1.29)
 
 DEPENDENCIES:
   - Crashlytics
   - Fabric
+  - Persei
   - StreamingKit
 
 SPEC CHECKSUMS:
   Crashlytics: e4e8d02914f2608fbc7bf42b1a7af838b0db67a2
   Fabric: 338ffd3c2afcab120638907b4251189de9ad17b3
+  Persei: 0cac86b27592be808823a2846e4854ae60332f18
   StreamingKit: c329785aaef3ac142d4ae388345bfe1ed23cfd45
 
-PODFILE CHECKSUM: 768abef1c01aee7389605c7698c752525b9ba016
+PODFILE CHECKSUM: da991039d53362afc5bf770127304976885f2b82
 
 COCOAPODS: 1.0.0.beta.3

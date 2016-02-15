@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4E31669D9AC70AF7132885CA /* libPods-PlayAir.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 68AC866033C9BDECE9D02FF9 /* libPods-PlayAir.a */; };
+		3CFCEF2969E585C3F2A34A5E /* Pods_PlayAir.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81F718D8B74F46E9B6C4F819 /* Pods_PlayAir.framework */; };
 		E11C61BF1C70E6C1003B0812 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11C61BE1C70E6C1003B0812 /* AppDelegate.swift */; };
 		E11C61C61C70E6C1003B0812 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E11C61C41C70E6C1003B0812 /* Main.storyboard */; };
 		E11C61C81C70E6C1003B0812 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E11C61C71C70E6C1003B0812 /* Assets.xcassets */; };
@@ -17,7 +17,20 @@
 		E12567501C710377009DA008 /* PALiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E125674F1C710377009DA008 /* PALiveViewController.swift */; };
 		E12567521C710570009DA008 /* PASettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12567511C710570009DA008 /* PASettingsViewController.swift */; };
 		E12567551C710827009DA008 /* PARadio.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12567541C710827009DA008 /* PARadio.swift */; };
+		E19214CE1C725B45006E8CA6 /* UIImage+Autoresize.m in Sources */ = {isa = PBXBuildFile; fileRef = E19214CD1C725B45006E8CA6 /* UIImage+Autoresize.m */; };
+		E19214D01C725B59006E8CA6 /* ContentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19214CF1C725B59006E8CA6 /* ContentType.swift */; };
+		E19214D81C725BAB006E8CA6 /* CGRect+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19214D71C725BAB006E8CA6 /* CGRect+Extension.swift */; };
+		E19214DA1C725BB1006E8CA6 /* CircularRevealTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19214D91C725BB1006E8CA6 /* CircularRevealTransition.swift */; };
+		E19214DC1C725BBD006E8CA6 /* PAMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19214DB1C725BBD006E8CA6 /* PAMenuViewController.swift */; };
 		E19380E81C710A9500A2D2ED /* PAPlayerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19380E71C710A9500A2D2ED /* PAPlayerManager.swift */; };
+		E1FEE8AF1C72615B00E33C45 /* content_films@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E1FEE8A71C72615B00E33C45 /* content_films@3x.png */; };
+		E1FEE8B01C72615B00E33C45 /* content_music-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E1FEE8A81C72615B00E33C45 /* content_music-667h@2x.png */; };
+		E1FEE8B11C72615B00E33C45 /* content_music.png in Resources */ = {isa = PBXBuildFile; fileRef = E1FEE8A91C72615B00E33C45 /* content_music.png */; };
+		E1FEE8B21C72615B00E33C45 /* content_music@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E1FEE8AA1C72615B00E33C45 /* content_music@2x.png */; };
+		E1FEE8B31C72615B00E33C45 /* content_films-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E1FEE8AB1C72615B00E33C45 /* content_films-667h@2x.png */; };
+		E1FEE8B41C72615B00E33C45 /* content_films.png in Resources */ = {isa = PBXBuildFile; fileRef = E1FEE8AC1C72615B00E33C45 /* content_films.png */; };
+		E1FEE8B51C72615B00E33C45 /* content_films@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E1FEE8AD1C72615B00E33C45 /* content_films@2x.png */; };
+		E1FEE8B61C72615B00E33C45 /* content_music@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E1FEE8AE1C72615B00E33C45 /* content_music@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +52,7 @@
 
 /* Begin PBXFileReference section */
 		08107251195C7B6FCE633BCE /* Pods-PlayAir.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayAir.release.xcconfig"; path = "Pods/Target Support Files/Pods-PlayAir/Pods-PlayAir.release.xcconfig"; sourceTree = "<group>"; };
-		68AC866033C9BDECE9D02FF9 /* libPods-PlayAir.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PlayAir.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81F718D8B74F46E9B6C4F819 /* Pods_PlayAir.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlayAir.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A73CB8DBA41DC93DF384F62D /* Pods-PlayAir.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayAir.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PlayAir/Pods-PlayAir.debug.xcconfig"; sourceTree = "<group>"; };
 		E11C61BB1C70E6C1003B0812 /* PlayAir.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayAir.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E11C61BE1C70E6C1003B0812 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -59,7 +72,22 @@
 		E125674F1C710377009DA008 /* PALiveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PALiveViewController.swift; sourceTree = "<group>"; };
 		E12567511C710570009DA008 /* PASettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PASettingsViewController.swift; sourceTree = "<group>"; };
 		E12567541C710827009DA008 /* PARadio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PARadio.swift; sourceTree = "<group>"; };
+		E19214CC1C725B45006E8CA6 /* UIImage+Autoresize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Autoresize.h"; sourceTree = "<group>"; };
+		E19214CD1C725B45006E8CA6 /* UIImage+Autoresize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Autoresize.m"; sourceTree = "<group>"; };
+		E19214CF1C725B59006E8CA6 /* ContentType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentType.swift; sourceTree = "<group>"; };
+		E19214D31C725B86006E8CA6 /* TrendSansOne.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = TrendSansOne.otf; sourceTree = "<group>"; };
+		E19214D71C725BAB006E8CA6 /* CGRect+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGRect+Extension.swift"; sourceTree = "<group>"; };
+		E19214D91C725BB1006E8CA6 /* CircularRevealTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularRevealTransition.swift; sourceTree = "<group>"; };
+		E19214DB1C725BBD006E8CA6 /* PAMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PAMenuViewController.swift; sourceTree = "<group>"; };
 		E19380E71C710A9500A2D2ED /* PAPlayerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PAPlayerManager.swift; sourceTree = "<group>"; };
+		E1FEE8A71C72615B00E33C45 /* content_films@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "content_films@3x.png"; sourceTree = "<group>"; };
+		E1FEE8A81C72615B00E33C45 /* content_music-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "content_music-667h@2x.png"; sourceTree = "<group>"; };
+		E1FEE8A91C72615B00E33C45 /* content_music.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = content_music.png; sourceTree = "<group>"; };
+		E1FEE8AA1C72615B00E33C45 /* content_music@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "content_music@2x.png"; sourceTree = "<group>"; };
+		E1FEE8AB1C72615B00E33C45 /* content_films-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "content_films-667h@2x.png"; sourceTree = "<group>"; };
+		E1FEE8AC1C72615B00E33C45 /* content_films.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = content_films.png; sourceTree = "<group>"; };
+		E1FEE8AD1C72615B00E33C45 /* content_films@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "content_films@2x.png"; sourceTree = "<group>"; };
+		E1FEE8AE1C72615B00E33C45 /* content_music@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "content_music@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,7 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E31669D9AC70AF7132885CA /* libPods-PlayAir.a in Frameworks */,
+				3CFCEF2969E585C3F2A34A5E /* Pods_PlayAir.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,7 +130,7 @@
 			children = (
 				E125674D1C710075009DA008 /* AudioToolbox.framework */,
 				E125674B1C710070009DA008 /* AVFoundation.framework */,
-				68AC866033C9BDECE9D02FF9 /* libPods-PlayAir.a */,
+				81F718D8B74F46E9B6C4F819 /* Pods_PlayAir.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -132,13 +160,16 @@
 		E11C61BD1C70E6C1003B0812 /* PlayAir */ = {
 			isa = PBXGroup;
 			children = (
+				E19214D41C725B93006E8CA6 /* Misc */,
+				E19214D11C725B6A006E8CA6 /* Resources */,
+				E19214CB1C725B1E006E8CA6 /* External */,
 				E19380E61C710A8100A2D2ED /* Manager */,
 				E12567531C710819009DA008 /* Model */,
 				E11C61BE1C70E6C1003B0812 /* AppDelegate.swift */,
 				E125674F1C710377009DA008 /* PALiveViewController.swift */,
 				E12567511C710570009DA008 /* PASettingsViewController.swift */,
+				E19214DB1C725BBD006E8CA6 /* PAMenuViewController.swift */,
 				E11C61C41C70E6C1003B0812 /* Main.storyboard */,
-				E11C61C71C70E6C1003B0812 /* Assets.xcassets */,
 				E11C61C91C70E6C1003B0812 /* LaunchScreen.storyboard */,
 				E11C61CC1C70E6C1003B0812 /* Info.plist */,
 				E125674A1C710022009DA008 /* PlayAir-Bridging-Header.h */,
@@ -167,9 +198,62 @@
 		E12567531C710819009DA008 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				E19214CF1C725B59006E8CA6 /* ContentType.swift */,
 				E12567541C710827009DA008 /* PARadio.swift */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		E19214CB1C725B1E006E8CA6 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				E19214CC1C725B45006E8CA6 /* UIImage+Autoresize.h */,
+				E19214CD1C725B45006E8CA6 /* UIImage+Autoresize.m */,
+			);
+			name = External;
+			sourceTree = "<group>";
+		};
+		E19214D11C725B6A006E8CA6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E1FEE8A61C72615000E33C45 /* Images */,
+				E19214D21C725B79006E8CA6 /* Fonts */,
+				E11C61C71C70E6C1003B0812 /* Assets.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E19214D21C725B79006E8CA6 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E19214D31C725B86006E8CA6 /* TrendSansOne.otf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		E19214D41C725B93006E8CA6 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				E19214D61C725BA3006E8CA6 /* Animation */,
+				E19214D51C725B9E006E8CA6 /* Extension */,
+			);
+			name = Misc;
+			sourceTree = "<group>";
+		};
+		E19214D51C725B9E006E8CA6 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E19214D71C725BAB006E8CA6 /* CGRect+Extension.swift */,
+			);
+			name = Extension;
+			sourceTree = "<group>";
+		};
+		E19214D61C725BA3006E8CA6 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				E19214D91C725BB1006E8CA6 /* CircularRevealTransition.swift */,
+			);
+			name = Animation;
 			sourceTree = "<group>";
 		};
 		E19380E61C710A8100A2D2ED /* Manager */ = {
@@ -178,6 +262,21 @@
 				E19380E71C710A9500A2D2ED /* PAPlayerManager.swift */,
 			);
 			name = Manager;
+			sourceTree = "<group>";
+		};
+		E1FEE8A61C72615000E33C45 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				E1FEE8A71C72615B00E33C45 /* content_films@3x.png */,
+				E1FEE8A81C72615B00E33C45 /* content_music-667h@2x.png */,
+				E1FEE8A91C72615B00E33C45 /* content_music.png */,
+				E1FEE8AA1C72615B00E33C45 /* content_music@2x.png */,
+				E1FEE8AB1C72615B00E33C45 /* content_films-667h@2x.png */,
+				E1FEE8AC1C72615B00E33C45 /* content_films.png */,
+				E1FEE8AD1C72615B00E33C45 /* content_films@2x.png */,
+				E1FEE8AE1C72615B00E33C45 /* content_music@3x.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,8 +388,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				E11C61CB1C70E6C1003B0812 /* LaunchScreen.storyboard in Resources */,
+				E1FEE8B61C72615B00E33C45 /* content_music@3x.png in Resources */,
 				E11C61C81C70E6C1003B0812 /* Assets.xcassets in Resources */,
+				E1FEE8B01C72615B00E33C45 /* content_music-667h@2x.png in Resources */,
+				E1FEE8B31C72615B00E33C45 /* content_films-667h@2x.png in Resources */,
 				E11C61C61C70E6C1003B0812 /* Main.storyboard in Resources */,
+				E1FEE8B21C72615B00E33C45 /* content_music@2x.png in Resources */,
+				E1FEE8AF1C72615B00E33C45 /* content_films@3x.png in Resources */,
+				E1FEE8B11C72615B00E33C45 /* content_music.png in Resources */,
+				E1FEE8B51C72615B00E33C45 /* content_films@2x.png in Resources */,
+				E1FEE8B41C72615B00E33C45 /* content_films.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,10 +483,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E19214DC1C725BBD006E8CA6 /* PAMenuViewController.swift in Sources */,
 				E19380E81C710A9500A2D2ED /* PAPlayerManager.swift in Sources */,
+				E19214D81C725BAB006E8CA6 /* CGRect+Extension.swift in Sources */,
 				E12567551C710827009DA008 /* PARadio.swift in Sources */,
 				E12567521C710570009DA008 /* PASettingsViewController.swift in Sources */,
 				E12567501C710377009DA008 /* PALiveViewController.swift in Sources */,
+				E19214DA1C725BB1006E8CA6 /* CircularRevealTransition.swift in Sources */,
+				E19214D01C725B59006E8CA6 /* ContentType.swift in Sources */,
+				E19214CE1C725B45006E8CA6 /* UIImage+Autoresize.m in Sources */,
 				E11C61BF1C70E6C1003B0812 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
