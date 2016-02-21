@@ -84,11 +84,13 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "Pods-PlayAir/Onboard.framework"
   install_framework "Pods-PlayAir/Persei.framework"
   install_framework "Pods-PlayAir/Realm.framework"
   install_framework "Pods-PlayAir/StreamingKit.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "Pods-PlayAir/Onboard.framework"
   install_framework "Pods-PlayAir/Persei.framework"
   install_framework "Pods-PlayAir/Realm.framework"
   install_framework "Pods-PlayAir/StreamingKit.framework"

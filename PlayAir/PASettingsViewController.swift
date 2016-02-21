@@ -7,3 +7,12 @@
 //
 
 import Foundation
+
+class PASettingsViewController : PAViewController {
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        pageName = "settings"
+    }
+}

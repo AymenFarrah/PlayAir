@@ -16,12 +16,20 @@
 		E12567501C710377009DA008 /* PALiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E125674F1C710377009DA008 /* PALiveViewController.swift */; };
 		E12567521C710570009DA008 /* PASettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12567511C710570009DA008 /* PASettingsViewController.swift */; };
 		E12567551C710827009DA008 /* PARadio.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12567541C710827009DA008 /* PARadio.swift */; };
+		E19028D11C79E0E3004E4443 /* PARadioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19028D01C79E0E3004E4443 /* PARadioManager.swift */; };
+		E19028D41C7A1B43004E4443 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E19028D31C7A1B43004E4443 /* GoogleService-Info.plist */; };
+		E19028D81C7A1BEE004E4443 /* PAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19028D71C7A1BEE004E4443 /* PAViewController.swift */; };
+		E19028DB1C7A1ECE004E4443 /* PARadioItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19028DA1C7A1ECE004E4443 /* PARadioItemCell.swift */; };
+		E19028E01C7A2448004E4443 /* PARadioListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19028DF1C7A2448004E4443 /* PARadioListViewController.swift */; };
+		E19028E21C7A40BC004E4443 /* UIFont+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19028E11C7A40BC004E4443 /* UIFont+Extensions.swift */; };
 		E19214CE1C725B45006E8CA6 /* UIImage+Autoresize.m in Sources */ = {isa = PBXBuildFile; fileRef = E19214CD1C725B45006E8CA6 /* UIImage+Autoresize.m */; };
 		E19214D01C725B59006E8CA6 /* ContentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19214CF1C725B59006E8CA6 /* ContentType.swift */; };
 		E19214D81C725BAB006E8CA6 /* CGRect+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19214D71C725BAB006E8CA6 /* CGRect+Extension.swift */; };
 		E19214DA1C725BB1006E8CA6 /* CircularRevealTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19214D91C725BB1006E8CA6 /* CircularRevealTransition.swift */; };
 		E19214DC1C725BBD006E8CA6 /* PAMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19214DB1C725BBD006E8CA6 /* PAMenuViewController.swift */; };
 		E19380E81C710A9500A2D2ED /* PAPlayerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19380E71C710A9500A2D2ED /* PAPlayerManager.swift */; };
+		E1DF63FE1C79DC41001BDAA5 /* PAMusicPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DF63FD1C79DC41001BDAA5 /* PAMusicPlayerViewController.swift */; };
+		E1DF64021C79DCF9001BDAA5 /* MusicPlayer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1DF64011C79DCF9001BDAA5 /* MusicPlayer.storyboard */; };
 		E1FEE8AF1C72615B00E33C45 /* content_films@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E1FEE8A71C72615B00E33C45 /* content_films@3x.png */; };
 		E1FEE8B01C72615B00E33C45 /* content_music-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E1FEE8A81C72615B00E33C45 /* content_music-667h@2x.png */; };
 		E1FEE8B11C72615B00E33C45 /* content_music.png in Resources */ = {isa = PBXBuildFile; fileRef = E1FEE8A91C72615B00E33C45 /* content_music.png */; };
@@ -72,6 +80,12 @@
 		E125674F1C710377009DA008 /* PALiveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PALiveViewController.swift; sourceTree = "<group>"; };
 		E12567511C710570009DA008 /* PASettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PASettingsViewController.swift; sourceTree = "<group>"; };
 		E12567541C710827009DA008 /* PARadio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PARadio.swift; sourceTree = "<group>"; };
+		E19028D01C79E0E3004E4443 /* PARadioManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PARadioManager.swift; sourceTree = "<group>"; };
+		E19028D31C7A1B43004E4443 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E19028D71C7A1BEE004E4443 /* PAViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PAViewController.swift; sourceTree = "<group>"; };
+		E19028DA1C7A1ECE004E4443 /* PARadioItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PARadioItemCell.swift; sourceTree = "<group>"; };
+		E19028DF1C7A2448004E4443 /* PARadioListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PARadioListViewController.swift; sourceTree = "<group>"; };
+		E19028E11C7A40BC004E4443 /* UIFont+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+Extensions.swift"; sourceTree = "<group>"; };
 		E19214CC1C725B45006E8CA6 /* UIImage+Autoresize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Autoresize.h"; sourceTree = "<group>"; };
 		E19214CD1C725B45006E8CA6 /* UIImage+Autoresize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Autoresize.m"; sourceTree = "<group>"; };
 		E19214CF1C725B59006E8CA6 /* ContentType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentType.swift; sourceTree = "<group>"; };
@@ -80,6 +94,8 @@
 		E19214D91C725BB1006E8CA6 /* CircularRevealTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularRevealTransition.swift; sourceTree = "<group>"; };
 		E19214DB1C725BBD006E8CA6 /* PAMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PAMenuViewController.swift; sourceTree = "<group>"; };
 		E19380E71C710A9500A2D2ED /* PAPlayerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PAPlayerManager.swift; sourceTree = "<group>"; };
+		E1DF63FD1C79DC41001BDAA5 /* PAMusicPlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PAMusicPlayerViewController.swift; sourceTree = "<group>"; };
+		E1DF64011C79DCF9001BDAA5 /* MusicPlayer.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MusicPlayer.storyboard; sourceTree = "<group>"; };
 		E1FEE8A71C72615B00E33C45 /* content_films@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "content_films@3x.png"; sourceTree = "<group>"; };
 		E1FEE8A81C72615B00E33C45 /* content_music-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "content_music-667h@2x.png"; sourceTree = "<group>"; };
 		E1FEE8A91C72615B00E33C45 /* content_music.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = content_music.png; sourceTree = "<group>"; };
@@ -160,16 +176,18 @@
 		E11C61BD1C70E6C1003B0812 /* PlayAir */ = {
 			isa = PBXGroup;
 			children = (
+				E19028DE1C7A1F84004E4443 /* Categories */,
+				E19028D91C7A1EB8004E4443 /* Cells */,
+				E19028D21C7A1B3B004E4443 /* Config */,
 				E19214D41C725B93006E8CA6 /* Misc */,
 				E19214D11C725B6A006E8CA6 /* Resources */,
 				E19214CB1C725B1E006E8CA6 /* External */,
 				E19380E61C710A8100A2D2ED /* Manager */,
 				E12567531C710819009DA008 /* Model */,
+				E19028D61C7A1BD9004E4443 /* Controller */,
 				E11C61BE1C70E6C1003B0812 /* AppDelegate.swift */,
-				E125674F1C710377009DA008 /* PALiveViewController.swift */,
-				E12567511C710570009DA008 /* PASettingsViewController.swift */,
-				E19214DB1C725BBD006E8CA6 /* PAMenuViewController.swift */,
 				E11C61C41C70E6C1003B0812 /* Main.storyboard */,
+				E1DF64011C79DCF9001BDAA5 /* MusicPlayer.storyboard */,
 				E11C61C91C70E6C1003B0812 /* LaunchScreen.storyboard */,
 				E11C61CC1C70E6C1003B0812 /* Info.plist */,
 				E125674A1C710022009DA008 /* PlayAir-Bridging-Header.h */,
@@ -202,6 +220,43 @@
 				E12567541C710827009DA008 /* PARadio.swift */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		E19028D21C7A1B3B004E4443 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				E19028D31C7A1B43004E4443 /* GoogleService-Info.plist */,
+			);
+			name = Config;
+			sourceTree = "<group>";
+		};
+		E19028D61C7A1BD9004E4443 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E19028D71C7A1BEE004E4443 /* PAViewController.swift */,
+				E125674F1C710377009DA008 /* PALiveViewController.swift */,
+				E19028DF1C7A2448004E4443 /* PARadioListViewController.swift */,
+				E12567511C710570009DA008 /* PASettingsViewController.swift */,
+				E19214DB1C725BBD006E8CA6 /* PAMenuViewController.swift */,
+				E1DF63FD1C79DC41001BDAA5 /* PAMusicPlayerViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		E19028D91C7A1EB8004E4443 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				E19028DA1C7A1ECE004E4443 /* PARadioItemCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		E19028DE1C7A1F84004E4443 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				E19028E11C7A40BC004E4443 /* UIFont+Extensions.swift */,
+			);
+			name = Categories;
 			sourceTree = "<group>";
 		};
 		E19214CB1C725B1E006E8CA6 /* External */ = {
@@ -260,6 +315,7 @@
 			isa = PBXGroup;
 			children = (
 				E19380E71C710A9500A2D2ED /* PAPlayerManager.swift */,
+				E19028D01C79E0E3004E4443 /* PARadioManager.swift */,
 			);
 			name = Manager;
 			sourceTree = "<group>";
@@ -387,6 +443,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E19028D41C7A1B43004E4443 /* GoogleService-Info.plist in Resources */,
 				E11C61CB1C70E6C1003B0812 /* LaunchScreen.storyboard in Resources */,
 				E1FEE8B61C72615B00E33C45 /* content_music@3x.png in Resources */,
 				E11C61C81C70E6C1003B0812 /* Assets.xcassets in Resources */,
@@ -398,6 +455,7 @@
 				E1FEE8B11C72615B00E33C45 /* content_music.png in Resources */,
 				E1FEE8B51C72615B00E33C45 /* content_films@2x.png in Resources */,
 				E1FEE8B41C72615B00E33C45 /* content_films.png in Resources */,
+				E1DF64021C79DCF9001BDAA5 /* MusicPlayer.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -483,15 +541,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E19028D81C7A1BEE004E4443 /* PAViewController.swift in Sources */,
 				E19214DC1C725BBD006E8CA6 /* PAMenuViewController.swift in Sources */,
+				E19028E21C7A40BC004E4443 /* UIFont+Extensions.swift in Sources */,
+				E1DF63FE1C79DC41001BDAA5 /* PAMusicPlayerViewController.swift in Sources */,
 				E19380E81C710A9500A2D2ED /* PAPlayerManager.swift in Sources */,
 				E19214D81C725BAB006E8CA6 /* CGRect+Extension.swift in Sources */,
 				E12567551C710827009DA008 /* PARadio.swift in Sources */,
 				E12567521C710570009DA008 /* PASettingsViewController.swift in Sources */,
+				E19028DB1C7A1ECE004E4443 /* PARadioItemCell.swift in Sources */,
 				E12567501C710377009DA008 /* PALiveViewController.swift in Sources */,
 				E19214DA1C725BB1006E8CA6 /* CircularRevealTransition.swift in Sources */,
 				E19214D01C725B59006E8CA6 /* ContentType.swift in Sources */,
 				E19214CE1C725B45006E8CA6 /* UIImage+Autoresize.m in Sources */,
+				E19028D11C79E0E3004E4443 /* PARadioManager.swift in Sources */,
+				E19028E01C7A2448004E4443 /* PARadioListViewController.swift in Sources */,
 				E11C61BF1C70E6C1003B0812 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

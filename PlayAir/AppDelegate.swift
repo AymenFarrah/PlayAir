@@ -9,6 +9,7 @@
 import UIKit
 import Fabric
 import Crashlytics
+import Google
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -20,7 +21,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
 
         Fabric.with([Crashlytics.self])
-
+        initializeGoogleAnalytics()
+        
         return true
     }
 
@@ -44,6 +46,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationWillTerminate(application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+    }
+    
+    
+    
+    private func initializeGoogleAnalytics() {
+        
+        let tracker = GAI.sharedInstance().trackerWithTrackingId("UA-74116642-1")
+        GAI.sharedInstance().defaultTracker = tracker
     }
 
 

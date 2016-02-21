@@ -9,7 +9,7 @@
 import StreamingKit
 import UIKit
 
-class PALiveViewController: UIViewController, STKAudioPlayerDelegate {
+class PALiveViewController: PAViewController, STKAudioPlayerDelegate {
     
     /*
     audioPlayer = [[STKAudioPlayer alloc] initWithOptions:(STKAudioPlayerOptions){ .flushQueueOnSeek = YES, .enableVolumeMixer = NO, .equalizerBandFrequencies = {50, 100, 200, 400, 800, 1600, 2600, 16000} }];
@@ -30,7 +30,7 @@ class PALiveViewController: UIViewController, STKAudioPlayerDelegate {
         audioPlayer.volume = 1
         audioPlayer.meteringEnabled = true
         
-        let url = NSURL(string: "http://radio.mosaiquefm.net:8000/mosalive")
+        let url = NSURL(string: "http://str0.creacast.com/pharefm")
         let dataSource = STKAudioPlayer.dataSourceFromURL(url!)
         audioPlayer.setDataSource(dataSource, withQueueItemId: itemId)
         
