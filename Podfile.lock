@@ -18,6 +18,7 @@ PODS:
   - GoogleSymbolUtilities (1.0.3)
   - GoogleUtilities (1.1.0):
     - GoogleSymbolUtilities (~> 1.0.0)
+  - LGAudioStreamHelper (1.0.1)
   - Onboard (2.1.7)
   - Persei (2.0.1)
   - Realm (0.98.1):
@@ -29,6 +30,7 @@ DEPENDENCIES:
   - Crashlytics
   - Fabric
   - Google/Analytics
+  - LGAudioStreamHelper
   - Onboard
   - Persei
   - Realm
@@ -43,11 +45,10 @@ SPEC CHECKSUMS:
   GoogleNetworkingUtilities: 292992ab31b7b4ba32809a0e8b40e324cdfb2c0c
   GoogleSymbolUtilities: 82ad9f93d3615244b3f4ce440f5ab2515e8b4f56
   GoogleUtilities: 8ed9134debe11719097881711464752900668f10
+  LGAudioStreamHelper: aec8d4e1010d863ff000b63b0691aac1ded74939
   Onboard: 87648089e1b76d13b4f5bf8f7a1cdb144092f0af
   Persei: 0cac86b27592be808823a2846e4854ae60332f18
   Realm: ca4a4122e939e228e10694fc49011386cb2ecb07
   StreamingKit: c329785aaef3ac142d4ae388345bfe1ed23cfd45
 
-PODFILE CHECKSUM: f062d04568fe0587da28025589489088dceb133d
-
-COCOAPODS: 1.0.0.beta.3
+COCOAPODS: 0.39.0

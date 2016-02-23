@@ -7,6 +7,7 @@
 //
 
 import StreamingKit
+import LGAudioStreamHelper
 import UIKit
 
 class PALiveViewController: PAViewController, STKAudioPlayerDelegate {
@@ -33,8 +34,18 @@ class PALiveViewController: PAViewController, STKAudioPlayerDelegate {
         let url = NSURL(string: "http://str0.creacast.com/pharefm")
         let dataSource = STKAudioPlayer.dataSourceFromURL(url!)
         audioPlayer.setDataSource(dataSource, withQueueItemId: itemId)
+                
+        let helper = LGAudioStreamMetadataGetter()
+        helper.getMetadataFromUrl(url) { (dict:[NSObject : AnyObject]!, response:NSHTTPURLResponse!, error:NSError!) -> Void in
+            print("***********************************")
+            print("dict")
+            print(dict)
+            print("***********************************")
+            print("response")
+            print(response)
+        }
         
-        
+
         
     }
     
