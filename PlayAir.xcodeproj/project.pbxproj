@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		62AEBE0B7FEBA9A86A040835 /* Pods_PlayAir.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 187A0DF2375C962DE5D899BA /* Pods_PlayAir.framework */; };
 		E11C61BF1C70E6C1003B0812 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11C61BE1C70E6C1003B0812 /* AppDelegate.swift */; };
 		E11C61C61C70E6C1003B0812 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E11C61C41C70E6C1003B0812 /* Main.storyboard */; };
 		E11C61C81C70E6C1003B0812 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E11C61C71C70E6C1003B0812 /* Assets.xcassets */; };
@@ -21,7 +22,6 @@
 		E19028D81C7A1BEE004E4443 /* PAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19028D71C7A1BEE004E4443 /* PAViewController.swift */; };
 		E19028DB1C7A1ECE004E4443 /* PARadioItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19028DA1C7A1ECE004E4443 /* PARadioItemCell.swift */; };
 		E19028E01C7A2448004E4443 /* PARadioListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19028DF1C7A2448004E4443 /* PARadioListViewController.swift */; };
-		E19028E21C7A40BC004E4443 /* UIFont+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19028E11C7A40BC004E4443 /* UIFont+Extensions.swift */; };
 		E19214CE1C725B45006E8CA6 /* UIImage+Autoresize.m in Sources */ = {isa = PBXBuildFile; fileRef = E19214CD1C725B45006E8CA6 /* UIImage+Autoresize.m */; };
 		E19214D01C725B59006E8CA6 /* ContentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19214CF1C725B59006E8CA6 /* ContentType.swift */; };
 		E19214D81C725BAB006E8CA6 /* CGRect+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19214D71C725BAB006E8CA6 /* CGRect+Extension.swift */; };
@@ -38,7 +38,6 @@
 		E1FEE8B41C72615B00E33C45 /* content_films.png in Resources */ = {isa = PBXBuildFile; fileRef = E1FEE8AC1C72615B00E33C45 /* content_films.png */; };
 		E1FEE8B51C72615B00E33C45 /* content_films@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E1FEE8AD1C72615B00E33C45 /* content_films@2x.png */; };
 		E1FEE8B61C72615B00E33C45 /* content_music@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E1FEE8AE1C72615B00E33C45 /* content_music@3x.png */; };
-		FF633E265491E219E53A53D0 /* Pods_PlayAir.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D74A1AA893798DFB9A803C5 /* Pods_PlayAir.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,9 +58,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		08107251195C7B6FCE633BCE /* Pods-PlayAir.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayAir.release.xcconfig"; path = "Pods/Target Support Files/Pods-PlayAir/Pods-PlayAir.release.xcconfig"; sourceTree = "<group>"; };
-		0D74A1AA893798DFB9A803C5 /* Pods_PlayAir.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlayAir.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A73CB8DBA41DC93DF384F62D /* Pods-PlayAir.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayAir.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PlayAir/Pods-PlayAir.debug.xcconfig"; sourceTree = "<group>"; };
+		187A0DF2375C962DE5D899BA /* Pods_PlayAir.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlayAir.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CEAF0724267FBF059E55197 /* Pods-PlayAir.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayAir.release.xcconfig"; path = "Pods/Target Support Files/Pods-PlayAir/Pods-PlayAir.release.xcconfig"; sourceTree = "<group>"; };
 		E11C61BB1C70E6C1003B0812 /* PlayAir.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayAir.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E11C61BE1C70E6C1003B0812 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E11C61C51C70E6C1003B0812 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -85,7 +83,6 @@
 		E19028D71C7A1BEE004E4443 /* PAViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PAViewController.swift; sourceTree = "<group>"; };
 		E19028DA1C7A1ECE004E4443 /* PARadioItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PARadioItemCell.swift; sourceTree = "<group>"; };
 		E19028DF1C7A2448004E4443 /* PARadioListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PARadioListViewController.swift; sourceTree = "<group>"; };
-		E19028E11C7A40BC004E4443 /* UIFont+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+Extensions.swift"; sourceTree = "<group>"; };
 		E19214CC1C725B45006E8CA6 /* UIImage+Autoresize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Autoresize.h"; sourceTree = "<group>"; };
 		E19214CD1C725B45006E8CA6 /* UIImage+Autoresize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Autoresize.m"; sourceTree = "<group>"; };
 		E19214CF1C725B59006E8CA6 /* ContentType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentType.swift; sourceTree = "<group>"; };
@@ -104,6 +101,7 @@
 		E1FEE8AC1C72615B00E33C45 /* content_films.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = content_films.png; sourceTree = "<group>"; };
 		E1FEE8AD1C72615B00E33C45 /* content_films@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "content_films@2x.png"; sourceTree = "<group>"; };
 		E1FEE8AE1C72615B00E33C45 /* content_music@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "content_music@3x.png"; sourceTree = "<group>"; };
+		FCBE7DDBD5C64207EB979B66 /* Pods-PlayAir.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayAir.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PlayAir/Pods-PlayAir.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,7 +109,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF633E265491E219E53A53D0 /* Pods_PlayAir.framework in Frameworks */,
+				62AEBE0B7FEBA9A86A040835 /* Pods_PlayAir.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,11 +130,11 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		37CBAC76CCE7F610F17E7C64 /* Pods */ = {
+		ABBBDF75FD4D880A8C7CC903 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A73CB8DBA41DC93DF384F62D /* Pods-PlayAir.debug.xcconfig */,
-				08107251195C7B6FCE633BCE /* Pods-PlayAir.release.xcconfig */,
+				FCBE7DDBD5C64207EB979B66 /* Pods-PlayAir.debug.xcconfig */,
+				7CEAF0724267FBF059E55197 /* Pods-PlayAir.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -146,7 +144,7 @@
 			children = (
 				E125674D1C710075009DA008 /* AudioToolbox.framework */,
 				E125674B1C710070009DA008 /* AVFoundation.framework */,
-				0D74A1AA893798DFB9A803C5 /* Pods_PlayAir.framework */,
+				187A0DF2375C962DE5D899BA /* Pods_PlayAir.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -158,8 +156,8 @@
 				E11C61D41C70E6C1003B0812 /* PlayAirTests */,
 				E11C61DF1C70E6C1003B0812 /* PlayAirUITests */,
 				E11C61BC1C70E6C1003B0812 /* Products */,
-				37CBAC76CCE7F610F17E7C64 /* Pods */,
 				AE660FAF399DCC7F11E6BE0B /* Frameworks */,
+				ABBBDF75FD4D880A8C7CC903 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -254,7 +252,6 @@
 		E19028DE1C7A1F84004E4443 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
-				E19028E11C7A40BC004E4443 /* UIFont+Extensions.swift */,
 			);
 			name = Categories;
 			sourceTree = "<group>";
@@ -342,13 +339,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E11C61E51C70E6C1003B0812 /* Build configuration list for PBXNativeTarget "PlayAir" */;
 			buildPhases = (
-				9DA8797679F179984C37732E /* Check Pods Manifest.lock */,
+				9D72942C050A809B04A953B9 /* Check Pods Manifest.lock */,
 				E11C61B71C70E6C1003B0812 /* Sources */,
 				E11C61B81C70E6C1003B0812 /* Frameworks */,
 				E11C61B91C70E6C1003B0812 /* Resources */,
-				C52FF735227DE5B97B1C61C6 /* Embed Pods Frameworks */,
-				CECF976716A692218A3C759D /* Copy Pods Resources */,
 				E12567481C70F25B009DA008 /* ShellScript */,
+				A3E99B93EF5E1F1C006A8187 /* Embed Pods Frameworks */,
+				50AE44B8602FD33940DAD67D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -476,7 +473,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		9DA8797679F179984C37732E /* Check Pods Manifest.lock */ = {
+		50AE44B8602FD33940DAD67D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PlayAir/Pods-PlayAir-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D72942C050A809B04A953B9 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -491,7 +503,7 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		C52FF735227DE5B97B1C61C6 /* Embed Pods Frameworks */ = {
+		A3E99B93EF5E1F1C006A8187 /* Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -504,21 +516,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PlayAir/Pods-PlayAir-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		CECF976716A692218A3C759D /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PlayAir/Pods-PlayAir-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E12567481C70F25B009DA008 /* ShellScript */ = {
@@ -543,7 +540,6 @@
 			files = (
 				E19028D81C7A1BEE004E4443 /* PAViewController.swift in Sources */,
 				E19214DC1C725BBD006E8CA6 /* PAMenuViewController.swift in Sources */,
-				E19028E21C7A40BC004E4443 /* UIFont+Extensions.swift in Sources */,
 				E1DF63FE1C79DC41001BDAA5 /* PAMusicPlayerViewController.swift in Sources */,
 				E19380E81C710A9500A2D2ED /* PAPlayerManager.swift in Sources */,
 				E19214D81C725BAB006E8CA6 /* CGRect+Extension.swift in Sources */,
@@ -696,7 +692,7 @@
 		};
 		E11C61E61C70E6C1003B0812 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A73CB8DBA41DC93DF384F62D /* Pods-PlayAir.debug.xcconfig */;
+			baseConfigurationReference = FCBE7DDBD5C64207EB979B66 /* Pods-PlayAir.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
@@ -710,7 +706,7 @@
 		};
 		E11C61E71C70E6C1003B0812 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 08107251195C7B6FCE633BCE /* Pods-PlayAir.release.xcconfig */;
+			baseConfigurationReference = 7CEAF0724267FBF059E55197 /* Pods-PlayAir.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";

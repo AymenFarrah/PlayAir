@@ -15,6 +15,7 @@ class PARadio: NSObject
     var url : NSURL!
     var picto : String!
     var desc : String!
+    var isFavorite : Bool!
     
     init(radioId: Int, name: String, url: NSURL, picto: String, desc: String) {
         super.init()

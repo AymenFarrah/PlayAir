@@ -31,7 +31,7 @@ class PALiveViewController: PAViewController, STKAudioPlayerDelegate {
         audioPlayer.volume = 1
         audioPlayer.meteringEnabled = true
         
-        let url = NSURL(string: "http://str0.creacast.com/pharefm")
+        let url = NSURL(string: "http://tropiquesfm.scdn.arkena.com/live.mp3")
         let dataSource = STKAudioPlayer.dataSourceFromURL(url!)
         audioPlayer.setDataSource(dataSource, withQueueItemId: itemId)
                 

@@ -9,7 +9,7 @@
         <!--Music Player View Controller-->
         <scene sceneID="OQg-P1-36K">
             <objects>
-                <viewController storyboardIdentifier="PAMusicPlayerViewController" id="z8v-sa-Hfl" customClass="PAMusicPlayerViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PAMusicPlayerViewController" id="z8v-sa-Hfl" customClass="PAMusicPlayerViewController" customModule="PlayAir" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="dDA-qe-vwm"/>
                         <viewControllerLayoutGuide type="bottom" id="TXi-Gs-Asq"/>
@@ -312,7 +312,6 @@
                         <outlet property="musicCycleButton" destination="tx9-0S-kRO" id="oG5-MJ-yL7"/>
                         <outlet property="musicMenuButton" destination="FJR-uC-aGs" id="kIZ-HI-9rO"/>
                         <outlet property="musicNameLabel" destination="j7s-z2-3GY" id="ITE-yq-rA7"/>
-                        <outlet property="musicSlider" destination="vS7-tV-ULZ" id="m9P-dB-Js4"/>
                         <outlet property="musicTitleLabel" destination="FF1-Wv-tCW" id="PdG-h9-ggP"/>
                         <outlet property="musicToggleButton" destination="fLm-XK-USB" id="PbA-1I-UEf"/>
                         <outlet property="nextMusicButton" destination="MYN-id-6aQ" id="WgO-Wq-shu"/>
