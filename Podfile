@@ -9,5 +9,5 @@ target 'PlayAir' do
   pod 'Realm'
   pod 'Onboard'
   pod 'Google/Analytics'
-
+  pod 'LGAudioStreamHelper'
 end
