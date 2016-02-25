@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import KVOController
 
 class PAMusicPlayerViewController: PAViewController {
     
@@ -36,15 +37,30 @@ class PAMusicPlayerViewController: PAViewController {
         super.viewDidLoad()
         pageName = "musicPlayer"
         addPanRecognizer()
+        
+        
+        KVOController.observe(PAPlayerManager.sharedInstance, keyPath: "playerState", options: .New, action: Selector("updateState"))
+        
     }
     
     
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
-        updateBackground()
+        //updateBackground()
+        
+        PAPlayerManager.sharedInstance.play("http://tropiquesfm.scdn.arkena.com/live.mp3")
+        
+    }
+    
+    deinit {
+        KVOControllerNonRetaining.unobserveAll()
     }
     
 
+    func updateState() {
+        print("updated")
+    }
+    
     // MARK: Utils
     func addPanRecognizer()
     {
@@ -77,6 +93,8 @@ class PAMusicPlayerViewController: PAViewController {
             */
             
             backgroudView!.addSubview(visualEffectView!)
+            backgroudView?.startTransitionAnimation()
+            
             /*
             [_backgroudImageView startTransitionAnimation];
             [_albumImageView startTransitionAnimation];
@@ -101,12 +119,21 @@ class PAMusicPlayerViewController: PAViewController {
         [self setupStreamer];
         */
     }
+    
+    @IBAction func didTouchMoreButton(sender: AnyObject) {
+        //_dontReloadMusic = YES;
+    }
 
+    
     @IBAction func didTouchMenuButton(sender: AnyObject) {
         //_dontReloadMusic = YES;
     }
 
     @IBAction func didTouchDismissButton(sender: AnyObject) {
+        
+        
+        self.dismissViewControllerAnimated(true, completion: nil)
+        
         /*
         __weak typeof(self) weakSelf = self;
         [self.navigationController dismissViewControllerAnimated:YES completion:^{

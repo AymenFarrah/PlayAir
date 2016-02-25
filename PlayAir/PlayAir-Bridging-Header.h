@@ -14,6 +14,8 @@
 #import <StreamingKit/STKAudioPlayer.h>
 #import <StreamingKit/STKDataSource.h>
 
+#import <KVOController/FBKVOController.h>
+
 #import "UIImage+Autoresize.h"
 
 #endif /* PlayAir_Bridging_Header_h */

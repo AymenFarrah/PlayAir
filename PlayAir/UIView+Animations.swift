@@ -7,3 +7,14 @@
 //
 
 import Foundation
+
+extension UIView {
+    
+    func startTransitionAnimation() {
+        let transition = CATransition()
+        transition.duration = 1
+        transition.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseInEaseOut)
+        transition.type = kCATransitionFade        
+        layer .addAnimation(transition, forKey: nil)
+    }
+}

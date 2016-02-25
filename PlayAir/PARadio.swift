@@ -15,15 +15,17 @@ class PARadio: NSObject
     var url : NSURL!
     var picto : String!
     var desc : String!
+    var categories : Array<String>!
     var isFavorite : Bool!
     
-    init(radioId: Int, name: String, url: NSURL, picto: String, desc: String) {
+    init(radioId: Int, name: String, url: NSURL, picto: String, desc: String, categories: Array<String>) {
         super.init()
         self.radioId = radioId
         self.name = name
         self.url = url
         self.picto = picto
         self.desc = desc
+        self.categories = categories
     }
     
     override var description: String {

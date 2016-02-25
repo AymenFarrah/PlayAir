@@ -10,4 +10,5 @@ target 'PlayAir' do
   pod 'Onboard'
   pod 'Google/Analytics'
   pod 'LGAudioStreamHelper'
+  pod 'KVOController'
 end

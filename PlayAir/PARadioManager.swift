@@ -28,29 +28,35 @@ class PARadioManager {
         let radio1 = PARadio(radioId: 1, name: "Europe 1",
             url: NSURL(string: "http://mp3lg3.scdn.arkena.com/10489/europe1.mp3")!,
             picto: "europe1",
-            desc: "Europe1, Radio d'informations et d'actualité.")
-
+            desc: "Europe1, Radio d'informations et d'actualité.",
+            categories:[""]
+        )
+        
         let radio2 = PARadio(radioId: 2, name: "RTL",
             url: NSURL(string: "http://streaming.radio.rtl.fr/rtl-1-44-96")!,
             picto: "radio-rtl",
-            desc: "Ecouter RTL en ligne pour découvrir les émissions d'informations et actualités économiques, politiques, sociales, judiciaires et sportives.")
+            desc: "Ecouter RTL en ligne pour découvrir les émissions d'informations et actualités économiques, politiques, sociales, judiciaires et sportives.",
+            categories:[""])
         
         let radio3 = PARadio(radioId: 3, name: "RMC",
             url: NSURL(string: "http://rmc.scdn.arkena.com/rmc.mp3")!,
             picto: "rmc",
-            desc: "RMC en direct : INFO TALK SPORT")
+            desc: "RMC en direct : INFO TALK SPORT",
+            categories:[""])
         
         
         let radio4 = PARadio(radioId: 4, name: "NRJ",
             url: NSURL(string: "http://95.81.147.24/8470/nrj_165631.mp3")!,
             picto: "nrj",
-            desc: "Hit Music Only !")
+            desc: "Hit Music Only !",
+            categories:[""])
         
         
         let radio5 = PARadio(radioId: 5, name: "BFM Business",
             url: NSURL(string: "http://bfmbusiness.scdn.arkena.com/bfmbusiness.mp3")!,
             picto: "bfm",
-            desc: "BFM direct : L'essentiel de l'actualité économique et financière.")
+            desc: "BFM direct : L'essentiel de l'actualité économique et financière.",
+            categories:[""])
         
         radios = [radio1, radio2, radio3, radio4, radio5]
     }
