@@ -32,14 +32,21 @@ class PAMusicPlayerViewController: PAViewController {
     @IBOutlet weak var musicCycleButton: UIButton?
     
     var visualEffectView: UIVisualEffectView?
+    var radio: PARadio?
  
     override func viewDidLoad() {
         super.viewDidLoad()
         pageName = "musicPlayer"
         addPanRecognizer()
         
+        PAPlayerManager.sharedManager().initDatafNecessary()
         
-        KVOController.observe(PAPlayerManager.sharedInstance, keyPath: "playerState", options: .New, action: Selector("updateState"))
+        KVOControllerNonRetaining.observe(
+            PAPlayerManager.sharedManager().playerData,
+            keyPath: "playerState",
+            options: [.Old,.New],
+            action: "updateState")
+        
         
     }
     
@@ -47,8 +54,13 @@ class PAMusicPlayerViewController: PAViewController {
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
         //updateBackground()
+        PAPlayerManager.sharedManager().play(radio!)
         
-        PAPlayerManager.sharedInstance.play("http://tropiquesfm.scdn.arkena.com/live.mp3")
+    }
+    
+    override func viewDidDisappear(animated: Bool) {
+        super.viewDidDisappear(animated)        
+        //PAPlayerManager.sharedManager().stop()
         
     }
     
@@ -59,6 +71,12 @@ class PAMusicPlayerViewController: PAViewController {
 
     func updateState() {
         print("updated")
+        
+        musicNameLabel?.text = radio?.name
+        singerLabel?.text = PAPlayerManager.sharedManager().playerData?.songTitle
+        
+        let imageName = PAPlayerManager.sharedManager().currentRadio?.picto
+        albumImageView?.image = UIImage(named: imageName!)
     }
     
     // MARK: Utils
@@ -144,6 +162,15 @@ class PAMusicPlayerViewController: PAViewController {
     }
 
     @IBAction func didTouchFavoriteButton(sender: AnyObject) {
+        
+        favoriteButton?.startDuangAnimation()
+        
+        if (radio!.isFavorite == true) {
+            favoriteButton?.setImage(UIImage(named: "empty_heart"), forState: .Normal)
+        } else {
+            favoriteButton?.setImage(UIImage(named: "red_heart"), forState: .Normal)
+        }
+        
         /*
         [_favoriteButton startDuangAnimation];
         if ([self hasBeenFavoriteMusic]) {

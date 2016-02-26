@@ -17,6 +17,7 @@
 		E12567501C710377009DA008 /* PALiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E125674F1C710377009DA008 /* PALiveViewController.swift */; };
 		E12567521C710570009DA008 /* PASettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12567511C710570009DA008 /* PASettingsViewController.swift */; };
 		E12567551C710827009DA008 /* PARadio.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12567541C710827009DA008 /* PARadio.swift */; };
+		E17002AC1C7FA4AD00035124 /* PAPlayerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17002AB1C7FA4AD00035124 /* PAPlayerData.swift */; };
 		E17D41CC1C7E3BFB0048E52E /* UIView+Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17D41CB1C7E3BFB0048E52E /* UIView+Animations.swift */; };
 		E19028D11C79E0E3004E4443 /* PARadioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19028D01C79E0E3004E4443 /* PARadioManager.swift */; };
 		E19028D41C7A1B43004E4443 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E19028D31C7A1B43004E4443 /* GoogleService-Info.plist */; };
@@ -79,6 +80,7 @@
 		E125674F1C710377009DA008 /* PALiveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PALiveViewController.swift; sourceTree = "<group>"; };
 		E12567511C710570009DA008 /* PASettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PASettingsViewController.swift; sourceTree = "<group>"; };
 		E12567541C710827009DA008 /* PARadio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PARadio.swift; sourceTree = "<group>"; };
+		E17002AB1C7FA4AD00035124 /* PAPlayerData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PAPlayerData.swift; sourceTree = "<group>"; };
 		E17D41CB1C7E3BFB0048E52E /* UIView+Animations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Animations.swift"; sourceTree = "<group>"; };
 		E19028D01C79E0E3004E4443 /* PARadioManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PARadioManager.swift; sourceTree = "<group>"; };
 		E19028D31C7A1B43004E4443 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -217,6 +219,7 @@
 			children = (
 				E19214CF1C725B59006E8CA6 /* ContentType.swift */,
 				E12567541C710827009DA008 /* PARadio.swift */,
+				E17002AB1C7FA4AD00035124 /* PAPlayerData.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -548,6 +551,7 @@
 				E19214CE1C725B45006E8CA6 /* UIImage+Autoresize.m in Sources */,
 				E19028D11C79E0E3004E4443 /* PARadioManager.swift in Sources */,
 				E19028E01C7A2448004E4443 /* PARadioListViewController.swift in Sources */,
+				E17002AC1C7FA4AD00035124 /* PAPlayerData.swift in Sources */,
 				E11C61BF1C70E6C1003B0812 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

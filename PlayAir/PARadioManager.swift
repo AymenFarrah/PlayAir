@@ -14,14 +14,10 @@ class PARadioManager {
 
     private init() {
         initRadios()
-    } //This prevents others from using the default '()' initializer for this class.
+    }
+    //This prevents others from using the default '()' initializer for this class.
 
     private var radios = [PARadio]()
-
-    /*
-    override init() {
-    }
-    */
     
     func initRadios () {
         

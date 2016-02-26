@@ -8,90 +8,90 @@
 
 import Foundation
 import StreamingKit
+import LGAudioStreamHelper
+
 
 
 
 class PAPlayerManager: NSObject, STKAudioPlayerDelegate {
 
+    private static let singleton = PAPlayerManager()
     
-    enum ManagerPlayerState {
-        case Ready
-        case Running
-        case Playing
-        case Buffering
-        case Paused
-        case Stopped
-        case Error
-        case Disposed
+    class func sharedManager() -> PAPlayerManager{
+        return singleton
     }
     
-    static let sharedInstance = PAPlayerManager()
     private let player: STKAudioPlayer = STKAudioPlayer()
-    var playerState = .Ready as ManagerPlayerState
+    private(set) var playerData : PAPlayerData?
+    var currentRadio : PARadio?
     
+    func play(radio: PARadio) {        
+        currentRadio = radio
+        let itemId = radio.url
+        let dataSource = STKAudioPlayer.dataSourceFromURL(radio.url!)
+        player.setDataSource(dataSource, withQueueItemId: itemId!)
+    }
     
-    override init() {
-        super.init()
+    func stop() {
         
+        currentRadio = nil
+        player.stop()
+    }
+    
+    func initDatafNecessary() {
+        if playerData == nil {
+            playerData = PAPlayerData(title: "", bitrate: "", state: .Ready)
+        }
         self.player.delegate = self
         self.player.volume = 1
         self.player.meteringEnabled = true
     }
     
     
-    func play(url: String) {
-        let url = NSURL(string: url)
-        let itemId = url
-        let dataSource = STKAudioPlayer.dataSourceFromURL(url!)
-        player.setDataSource(dataSource, withQueueItemId: itemId!)
-    }
-    
-    
     // MARK: DELEGATE
     func audioPlayer(audioPlayer: STKAudioPlayer, didStartPlayingQueueItemId queueItemId: NSObject) {
-        print("didStartPlayingQueueItemId")
-        playerState = .Playing
+        
+        let url = queueItemId as! NSURL
+        let metaData = LGAudioStreamMetadataGetter()
+        metaData.getMetadataFromUrl(url) { (dict:[NSObject : AnyObject]!, response:NSHTTPURLResponse!, error:NSError!) -> Void in
+            
+            print("************")
+            print(dict)
+            print("************")
+            
+            if let title = dict["StreamTitle"] {
+                self.playerData?.songTitle = title as? String
+            }
+            else if let subtitle = dict["icy-name"] {
+                self.playerData?.songTitle = subtitle as? String
+            }
+            
+            if let bitrate = dict["icy-br"] {
+                self.playerData?.songBitrate = bitrate as? String
+            }
+            
+            self.playerData!.playerState = .Playing
+            
+        }
     }
     
     func audioPlayer(audioPlayer: STKAudioPlayer, didFinishBufferingSourceWithQueueItemId queueItemId: NSObject) {
-        print("didFinishBufferingSourceWithQueueItemId")
-        playerState = .Disposed
+        playerData!.playerState = .Disposed
     }
     
     func audioPlayer(audioPlayer: STKAudioPlayer, didFinishPlayingQueueItemId queueItemId: NSObject, withReason stopReason: STKAudioPlayerStopReason, andProgress progress: Double, andDuration duration: Double) {
-        print("didFinishPlayingQueueItemId")
-        playerState = .Disposed
+        playerData!.playerState = .Disposed
     }
     
     func audioPlayer(audioPlayer: STKAudioPlayer, unexpectedError errorCode: STKAudioPlayerErrorCode) {
-        print("unexpectedError")
-        playerState = .Error
+        playerData!.playerState = .Error
     }
     
     func audioPlayer(audioPlayer: STKAudioPlayer, stateChanged state: STKAudioPlayerState, previousState: STKAudioPlayerState) {
-        print("stateChanged")
-        
-        if (state == .Playing) {
-            playerState = .Playing
-        }
-        
+    
         if (state == .Paused) {
-            playerState = .Paused
+            playerData!.playerState = .Paused
         }
 
     }
-    
-    
-    /*
-    let audioPlayer: STKAudioPlayer = STKAudioPlayer()
-    audioPlayer.delegate = self
-    audioPlayer.volume = 1
-    audioPlayer.meteringEnabled = true
-    */
-    
-    /*
-    let options = STKAudioPlayerOptions(flushQueueOnSeek: true, enableVolumeMixer: false, equalizerBandFrequencies: (0.33333), readBufferSize: 0, bufferSizeInSeconds: 0, secondsRequiredToStartPlaying: 0, gracePeriodAfterSeekInSeconds: 0, secondsRequiredToStartPlayingAfterBufferUnderun: 0)
-
-    var audioPlayer = STKAudioPlayer(options: options)
-    */
 }

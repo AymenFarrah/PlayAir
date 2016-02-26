@@ -26,6 +26,7 @@ class PARadio: NSObject
         self.picto = picto
         self.desc = desc
         self.categories = categories
+        self.isFavorite = false
     }
     
     override var description: String {

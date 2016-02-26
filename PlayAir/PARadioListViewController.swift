@@ -38,7 +38,10 @@ class PARadioListViewController: PAViewController, UITableViewDataSource, UITabl
 
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        let controller = UIStoryboard(name: "MusicPlayer", bundle: NSBundle.mainBundle()).instantiateViewControllerWithIdentifier("PAMusicPlayerViewController")        
+        let controller = UIStoryboard(name: "MusicPlayer", bundle: NSBundle.mainBundle()).instantiateViewControllerWithIdentifier("PAMusicPlayerViewController") as! PAMusicPlayerViewController
+        
+        
+        controller.radio = PARadioManager.sharedInstance.getRadios()[indexPath.row]
         presentViewController(controller, animated: true, completion: nil)
 
     }

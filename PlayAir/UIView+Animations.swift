@@ -10,6 +10,20 @@ import Foundation
 
 extension UIView {
     
+    func startDuangAnimation() {
+        let options = [.CurveEaseInOut, .AllowAnimatedContent, .BeginFromCurrentState] as UIViewAnimationOptions
+        
+        UIView.animateWithDuration(0.15, delay: 0, options: options, animations: { () -> Void in
+            self.layer.setValue(0.8, forKeyPath: "transform.scale")
+            }) { (finished: Bool) -> Void in
+                UIView.animateWithDuration(0.15, delay: 0, options: options, animations: { () -> Void in
+                    self.layer.setValue(1.3, forKeyPath: "transform.scale")
+                    }, completion: { (finished: Bool) -> Void in
+                        self.layer.setValue(1, forKeyPath: "transform.scale")
+                })
+        }
+    }
+    
     func startTransitionAnimation() {
         let transition = CATransition()
         transition.duration = 1
@@ -18,3 +32,4 @@ extension UIView {
         layer .addAnimation(transition, forKey: nil)
     }
 }
+
